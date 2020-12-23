@@ -3,7 +3,8 @@ body {
 }
 
 .main {
-	background: linear-gradient(90deg, #fafafa 21px, transparent 1%) center, linear-gradient(#fafafa 21px, transparent 1%) center, #a799cc;
+	/*background: linear-gradient(90deg, #fafafa 21px, transparent 1%) center, linear-gradient(#fafafa 21px, transparent 1%) center, #a799cc;*/
+	background: #fafafa;
 	background-size: 22px 22px;
 	margin-top: 20px;
 	width: 89.5%;
@@ -68,10 +69,12 @@ p {
 }
 
 a {
-	text-decoration: none;
+
+	color: #404040;
+	
 }
 
-a:hover {
+/*a:hover {
 	text-decoration: underline;
 }
 
@@ -83,14 +86,14 @@ a:visited {
 	color: #34b1eb;
 	color: #a3004c;
 }
-
+*/
 a:hover {
-	color: hotpink;
+	color: #006960;
 }
-
+/*
 a:active {
 	color: blue;
-}
+}*/
 
 .title {
 	font-weight: bold;
@@ -117,4 +120,27 @@ a:active {
    display: flex;
    justify-content: space-around;
       }
+
+.sup {
+font-size: 6px;}
+
+.color-changing {
+font-size:16px;
+font-weight: 500;
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #000000; }
+  10% { color: #212121; }
+  20% { color: #292929; }
+  30% { color: #363636; }
+  40% { color: #404040; }
+  50% { color: #4d4d4d; }
+  60% { color: #4a4a4a; }
+  70% { color: #525252; }
+  80% { color: #5e5e5e; }
+  90% { color: #6b6b6b; }
+  100% { color: #707070; }
+}
 
