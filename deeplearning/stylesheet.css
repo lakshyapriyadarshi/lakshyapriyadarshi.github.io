@@ -105,3 +105,14 @@ a:active {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
+
+
+
+sup {
+  font-size: 0.8em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+
+}
