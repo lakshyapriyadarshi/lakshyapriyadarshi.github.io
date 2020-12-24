@@ -116,16 +116,18 @@ a:active {
 }
 
 
-.prerequisite-section{
-   display: flex;
-   justify-content: space-around;
+
+.prerequisite-section p{
+         font-size: 16px;
+         font-weight: 400;
+         color: #757575;
+	 text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+         max-width: 310px;
       }
 
-.sup {
-font-size: 6px;}
-
 .color-changing {
-font-size:16px;
+font-size:17px;
 font-weight: 500;
   animation: color-change 1s infinite;
 }
