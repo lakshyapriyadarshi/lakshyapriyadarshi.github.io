@@ -146,3 +146,48 @@ font-weight: 500;
   100% { color: #707070; }
 }
 
+.readme-section {
+	font-size:16px;
+	font-weight: 500;
+	animation: flow 30s ease-in-out infinite;
+	background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752); 
+	background-size: 300%;
+	-webkit-background-clip: text;
+		background-clip: text; 
+	-webkit-text-fill-color: transparent; 
+}
+
+@keyframes flow {
+0% { background-position: 0 50%;}
+50% { background-position: 100% 50%;}
+100% { background-position: 0 50%;}
+}
+
+.video-container{
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  position:relative;
+}
+.video-container iframe,{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  /*height: 100%;*/
+}
+.video-container iframe, {
+  pointer-events: none;
+}
+.video-container iframe{
+  position: absolute;
+  top: -60px;
+  left: 0;
+  width: 50%;
+  height: calc(50% + 60px);
+}
+.video-foreground{
+  pointer-events:none;
+}
+
+
