@@ -70,7 +70,7 @@ p {
 
 a {
 
-	color: #404040;
+	color: #008a8a;/*#404040*/
 	
 }
 
@@ -189,5 +189,8 @@ font-weight: 500;
 .video-foreground{
   pointer-events:none;
 }
+
+
+
 
 
