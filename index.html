@@ -89,7 +89,7 @@
 			font-weight: 500;
 		}
 		
-		body {}
+
 		
 		.wrapper {
 			margin: 0 auto;
@@ -101,16 +101,20 @@
 			background: white;
 			padding: 10px 10px 10px 10px;
 			margin: 50px auto;
-			width: 50%;
+			width: 45%;
 			max-width: 500px;
 		}
 		
 		.rule {
 			position: relative;
+			padding: 10px 60px 10px 40px;
 			left: 7px;
-			background: #e0e0e0;
+			/*background: #e0e0e0;*/
 			/*#d9dedd; /*#dae6e4; /*#ebfffc; /*#e0e0e0;*/
-			box-shadow: -2px 0 0 #0000FF, -4px 0 0 #ccccff, -7px 0 0 #0000FF;
+			/*box-shadow: -2px 0 0 #0000FF, -4px 0 0 #ccccff, -7px 0 0 #0000FF;*/
+			
+			background: #f5f5f5;
+			box-shadow: -2px 0 0 #878787, -4px 0 0 #cccccc, -7px 0 0 #878787;			
 			color: black;
 		}
 		</style>
@@ -139,6 +143,8 @@
 		gtag('config', 'UA-180528137-1');
 		</script>
 		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
 	</head>
 
 	<body onmousedown="return false" onselectstart="return false">
@@ -151,14 +157,24 @@
 		</script>
 		<div class="main">
 			<div id="intro_text">
-				<h1>
-            First steps into deep learning research? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://twitter.com/abstractionsdev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @abstractionsdev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <br>
+
+			<div style="display: flex; align-items: center;margin-top:-10px;margin-bottom: -15px;">
+			<img src="icon2.svg" style="width: 185px; ">
+			<h1>
+
+            First steps into deep learning research? &nbsp; &nbsp;&nbsp;<a href="https://twitter.com/abstractionsdev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @abstractionsdev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
             </h1> 
+        </div>
+
 				<hr>
-				<p> <span class="readme-section"><b>README</b></span>: This letter presents a self-contained learning path to build the foundations of deep learning. It is aimed at advanced undergraduate students interested in graduate studies or in cutting-edge technology research. The idea is to create a sequence of pointers that highlight the central themes in modern deep learning practices. I encourage you to revisit this letter at different stages of your studies and absorb the materials in incremental levels of understanding. Since this letter is based on my personal experience with the field, it is open to experimentation and scrutiny. Also, click
-					<a href="#0" onclick="myFunction('hider0')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a> !
+				<p> <span class="readme-section"><b>README</b></span>: This letter presents a self-contained learning path to build the foundations of deep learning. It is aimed at advanced undergraduate students interested in graduate studies or in a cutting-edge research career. The idea is to create a sequence of pointers that highlight the central themes in modern deep learning practices. I encourage you to revisit this letter at different stages of your studies and absorb the materials in incremental levels of understanding. Since this letter is based on my personal experience with the field (and I am still learning), it is open to experimentation and scrutiny. Click
+					<a href="#0" onclick="myFunction('hider0')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a> s!
 					<div id="hider0" style="display: none;"> 
+
+						<div class="mxgraph" style="max-width:100%;border:1px solid transparent;margin: auto;" data-mxgraph="{&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-12-25T19:34:07.513Z\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36\&quot; etag=\&quot;wJx4KmzIsbfTFx13Lyxo\&quot; version=\&quot;14.1.2\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;prtHgNgQTEPvFCAcTncT\&quot; name=\&quot;Page-1\&quot;&gt;7Vpbc9o6EP41PCZjyxfwIzih7ZmTOWlIp8/CFrZOZMuR5UD667uyZTCxobmAYTpJJgFWF6/2+76VVsnA8pPVF4Gz+IaHhA2QEa4G1tUAIdOwHHhRlmdtGTqoskSChtq2MczoL1IP1daChiTf6ig5Z5Jm28aApykJ5JYNC8GX290WnG0/NcMRaRlmAWZt608ayriyjtBwY/9KaBTXTzZdr2pJcN1ZrySPcciXDZN1PbB8wbms3iUrnzAVvTou1bjpjta1Y4Kk8jUDcjm7eSBY/nM7Cp/u7ZvHcXBxocF4wqzQCx4gl8F8kwWHaVVcGRdli/tYKFcnA2Qtyq+myY3Uq8/TgGSywIz+wpLytJ4MvKrmq/rpgMjnOsqCF2lIlKMmNC9jKsksw4FqXQKxwBbLhOlmNZMmimnXn/Vcqj2Xgj8QXzue8pSoTpQxf70Wy556k+l07coTEZKsdgbWXMMFRCc8IVI8Qxc9wNUc1xS3Nd7LDV1MW3eJG1SxdD+sGRqtJ96ACG80jm/A1G5hOpOiCGQhIMLI+JdgkdI0Oi4I6nMj3poxrwMHeUN77B4GHKtOJHvQcYwe0XFa6HxLMkYSWI+WzLnCYkLWs9FhYHGcM4PF25kIC7ZJW5WF0ZeWfcnSMFw3CNrJcqpwLSHPd6bJtbn9yMM4Mc4yRgNNPOOKJ5ie0p07kkN2CmIYNxUwnhLxLm/A2IRtp6KMtysK9rYohQ+MLGRLOLC0Yfndkt7HJWNvK2bUVgwyOhQzPJZiTPOIkrEs123T456s5Jzzh14Y2u2CzwuRw4EUQdCM+0JyQTE7oT+3gkcCJ0m5oX8KpZSBd25KaZ/IDqcUw0BdtMBZmTphSWAzfCjM+uBotzONrA50/R/KtF4E0+2Mz5OMSPruffdvVIyDelPMj5yI/+aKAzCO4TlhHy87bwUR5LGgOUR7N6bKUUbTh+p5FGBaXZZgIOv27vp71WF/sew0oqiFf8oi1vTUrrBe3CGLWNM7XhULHxsseMtlhdvKo3cEh+XWpxPd9SqD8Jx5IWX7huF5h8HNMow/Azfss5Kqr8YaKMHaQepnj8vQd6fege4dHHt4+QpJOeiyz6shNOq9zL3BMiYJIB+csK784Cn5UJEIYgq8a17BfZ4/OkrbNf9PdmJHx7wO6i7kmodkfXg/VU0JmyjP6xOyqnMnjEen9YfhFEOtrTgzFpBL2LvKmb9ROy+r3dOLp3agx3LX5+kCaoA02HP+P3pl+UXgsMBSJfiZLELA74TOwI63IHnOy0sAGIaMO2jCiaJx9fvqU0Hd1e8ZKMjaqSDNhU3Qa+BVw0VexnMMHcxRtmqz4itfKiJhddn/DX4iUk2GIXxhuWKpNqCQkExVyy+OKXNRz4NT1XtOAliwCoCaT0Evoo0GhN7QCOA33VuVNxgEKMptmvzx4K5NNX0CQF09cqI4QQPMxrohoWGoHtPJy23mdhUZDSYqzR2q7jZf/H3yArXJ57gd5EPvKrw3/25QtjX+a8O6/g0=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+
 
 						<a href="#PREQ">Click for preq</a>
 
@@ -276,6 +292,13 @@
 					<a href="#0" onclick="myFunction('hider11')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
 					<div id="hider11" style="display: none;"> This is my DIV element. </div></p>	
 					</p>
+					<div class="wrapper">
+						<blockquote class="rule">
+							<p>‘‘It’s [deep learning] very much an interplay between intuitive insights, theoretical modeling, practical implementations, empirical studies, and scientific analyses. The insight is creative thinking, the modeling is mathematics, the implementation is engineering and sheer hacking, the empirical study and the analysis are actual science. What I am most fond of are beautiful and simple theoretical ideas that can be translated into something that works’’ ― Yann Lecun, IEEE Spectrum interview (<a href="https://spectrum.ieee.org/automaton/artificial-intelligence/machine-learning/facebook-ai-director-yann-lecun-on-deep-learning" target="_blank" rel="noopener noreferrer">2015</a>)</p>
+						</blockquote>
+					</div>
+
+
 					<hr>
 
 					<p><b>Advanced frontiers:</b> As you build a foundation for research, you will observe that ‘state-of-the-art’ in deep learning is a moving target and new developments in computer vision, natural language processing, bioinformatics, speech systems, and robotics are constantly on the horizon. The phenomenal interest in the field has given rise to learning techniques such as transfer learning, self-supervised learning, Bayesian deep learning, domain adaptation, and adversarial examples. Methodologies such as neural architecture search, metalearning, autoML, and model compression have been developed. Deep learning on graphs and geometric deep learning have created new concepts in computer graphics modeling. Generative models are finding applications in art and music. Reinforcement learning is revolutionizing game-play such as Go, Atari, Chess. The trends in hardware developments have evolved and specialized processors such as GPUs, TPUs, and IPUs are enabling deep learning at scale. Quantum computing and neuromorphic computing are reinventing the computational models of neural networks. The integration of systems and deep learning (MLSys) has introduced concepts such as hardware and software co-design, edgeML, and privacy preservation. The explosion of interest in the field, availability of compute resources and big-data, algorithmic advancements, and the emergence (engineering) of ubiquitous applications is pushing deep learning at an unprecedented pace. 
@@ -300,7 +323,7 @@
 					<hr>
 					<div class="wrapper">
 						<blockquote class="rule">
-							<p>&ensp;&ensp;<i>‘‘Don't minimize mistakes. Minimize repeat mistakes. Fail in new ways and learn.’’</i> ― <a href="https://lexfridman.com/" target="_blank" rel="noopener noreferrer">@lexfridman</a></p>
+							<p>‘‘Don't minimize mistakes. Minimize repeat mistakes. Fail in new ways and learn.’’<br> ― <a href="https://lexfridman.com/" target="_blank" rel="noopener noreferrer">@lexfridman</a></p>
 						</blockquote>
 					</div>
 					<hr>
