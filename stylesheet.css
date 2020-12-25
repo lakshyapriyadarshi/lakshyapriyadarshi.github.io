@@ -20,7 +20,7 @@ body {
 	padding-bottom: 1%;
 }
 
-@media screen and (max-width:1100px) {.main{width: 89.50%;}}
+@media screen and (max-width:1100px) {.main{width: 87.50%;} .readme-section{padding-top:25px;}}
 
 .column {
 	float: left;
@@ -150,13 +150,13 @@ font-weight: 500;
 
 .readme-section {
 	font-size:16px;
-	margin-top:10px;
+
 	font-weight: 500;
 	animation: flow 30s ease-in-out infinite;
 	background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752); 
 	background-size: 300%;
 	-webkit-background-clip: text;
-		background-clip: text; 
+		/*background-clip: text; */
 	-webkit-text-fill-color: transparent; 
 }
 
