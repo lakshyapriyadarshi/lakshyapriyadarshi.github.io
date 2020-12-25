@@ -7,7 +7,7 @@ body {
 	background: #fafafa;
 	background-size: 22px 22px;
 	margin-top: 20px;
-	width: 89.5%;
+	/*width: 89.5%;*/
 	width: 71%;
 	border: solid 2px #222222;
 	border: solid 0px #000000;
@@ -19,6 +19,8 @@ body {
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
+
+@media screen and (max-width:1100px) {.main{width: 89.50%;}}
 
 .column {
 	float: left;
@@ -148,6 +150,7 @@ font-weight: 500;
 
 .readme-section {
 	font-size:16px;
+	margin-top:10px;
 	font-weight: 500;
 	animation: flow 30s ease-in-out infinite;
 	background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752); 
