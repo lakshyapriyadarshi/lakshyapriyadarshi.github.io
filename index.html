@@ -90,33 +90,6 @@
 		}
 		
 
-		
-		.wrapper {
-			margin: 0 auto;
-			width: 90%;
-			padding-bottom: -5px;
-		}
-		
-		.blockquote {
-			background: white;
-			padding: 10px 10px 10px 10px;
-			margin: 50px auto;
-			width: 45%;
-			max-width: 500px;
-		}
-		
-		.rule {
-			position: relative;
-			padding: 10px 60px 10px 40px;
-			left: 7px;
-			/*background: #e0e0e0;*/
-			/*#d9dedd; /*#dae6e4; /*#ebfffc; /*#e0e0e0;*/
-			/*box-shadow: -2px 0 0 #0000FF, -4px 0 0 #ccccff, -7px 0 0 #0000FF;*/
-			
-			background: #f5f5f5;
-			box-shadow: -2px 0 0 #878787, -4px 0 0 #cccccc, -7px 0 0 #878787;			
-			color: black;
-		}
 		</style>
 		<style type="text/css" media="print">
 		html {
@@ -168,20 +141,14 @@
         </div>
 
 				<hr>
-				<p> <span class="readme-section"><b>README</b></span>: This letter presents a self-contained learning path to build the foundations of deep learning. It is aimed at advanced undergraduate students interested in graduate studies or in a cutting-edge research career. The idea is to create a sequence of pointers that highlight the central themes in modern deep learning practices. I encourage you to revisit this letter at different stages of your studies and absorb the materials in incremental levels of understanding. Since this letter is based on my personal experience with the field (and I am still learning), it is open to experimentation and scrutiny. Click
-					<a href="#0" onclick="myFunction('hider0')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a> s!
+				<p> <span class="readme-section"><b>README</b></span>: This letter presents a self-contained learning path to build the foundations of deep learning. It is aimed at advanced undergraduate students interested in graduate studies or in a cutting-edge research career. The idea is to create a sequence of pointers that highlight the central themes in modern deep learning practices. I encourage you to revisit this letter at different stages of your studies and absorb the materials in incremental levels of understanding. Since this letter is based on my (limited) personal experience with the field, it is open to experimentation and scrutiny. Note: click
+					<a href="#0" onclick="myFunction('hider0')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a> !
 					<div id="hider0" style="display: none;"> 
 
-						<div class="mxgraph" style="max-width:100%;border:1px solid transparent;margin: auto;" data-mxgraph="{&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-12-25T19:34:07.513Z\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36\&quot; etag=\&quot;wJx4KmzIsbfTFx13Lyxo\&quot; version=\&quot;14.1.2\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;prtHgNgQTEPvFCAcTncT\&quot; name=\&quot;Page-1\&quot;&gt;7Vpbc9o6EP41PCZjyxfwIzih7ZmTOWlIp8/CFrZOZMuR5UD667uyZTCxobmAYTpJJgFWF6/2+76VVsnA8pPVF4Gz+IaHhA2QEa4G1tUAIdOwHHhRlmdtGTqoskSChtq2MczoL1IP1daChiTf6ig5Z5Jm28aApykJ5JYNC8GX290WnG0/NcMRaRlmAWZt608ayriyjtBwY/9KaBTXTzZdr2pJcN1ZrySPcciXDZN1PbB8wbms3iUrnzAVvTou1bjpjta1Y4Kk8jUDcjm7eSBY/nM7Cp/u7ZvHcXBxocF4wqzQCx4gl8F8kwWHaVVcGRdli/tYKFcnA2Qtyq+myY3Uq8/TgGSywIz+wpLytJ4MvKrmq/rpgMjnOsqCF2lIlKMmNC9jKsksw4FqXQKxwBbLhOlmNZMmimnXn/Vcqj2Xgj8QXzue8pSoTpQxf70Wy556k+l07coTEZKsdgbWXMMFRCc8IVI8Qxc9wNUc1xS3Nd7LDV1MW3eJG1SxdD+sGRqtJ96ACG80jm/A1G5hOpOiCGQhIMLI+JdgkdI0Oi4I6nMj3poxrwMHeUN77B4GHKtOJHvQcYwe0XFa6HxLMkYSWI+WzLnCYkLWs9FhYHGcM4PF25kIC7ZJW5WF0ZeWfcnSMFw3CNrJcqpwLSHPd6bJtbn9yMM4Mc4yRgNNPOOKJ5ie0p07kkN2CmIYNxUwnhLxLm/A2IRtp6KMtysK9rYohQ+MLGRLOLC0Yfndkt7HJWNvK2bUVgwyOhQzPJZiTPOIkrEs123T456s5Jzzh14Y2u2CzwuRw4EUQdCM+0JyQTE7oT+3gkcCJ0m5oX8KpZSBd25KaZ/IDqcUw0BdtMBZmTphSWAzfCjM+uBotzONrA50/R/KtF4E0+2Mz5OMSPruffdvVIyDelPMj5yI/+aKAzCO4TlhHy87bwUR5LGgOUR7N6bKUUbTh+p5FGBaXZZgIOv27vp71WF/sew0oqiFf8oi1vTUrrBe3CGLWNM7XhULHxsseMtlhdvKo3cEh+XWpxPd9SqD8Jx5IWX7huF5h8HNMow/Azfss5Kqr8YaKMHaQepnj8vQd6fege4dHHt4+QpJOeiyz6shNOq9zL3BMiYJIB+csK784Cn5UJEIYgq8a17BfZ4/OkrbNf9PdmJHx7wO6i7kmodkfXg/VU0JmyjP6xOyqnMnjEen9YfhFEOtrTgzFpBL2LvKmb9ROy+r3dOLp3agx3LX5+kCaoA02HP+P3pl+UXgsMBSJfiZLELA74TOwI63IHnOy0sAGIaMO2jCiaJx9fvqU0Hd1e8ZKMjaqSDNhU3Qa+BVw0VexnMMHcxRtmqz4itfKiJhddn/DX4iUk2GIXxhuWKpNqCQkExVyy+OKXNRz4NT1XtOAliwCoCaT0Evoo0GhN7QCOA33VuVNxgEKMptmvzx4K5NNX0CQF09cqI4QQPMxrohoWGoHtPJy23mdhUZDSYqzR2q7jZf/H3yArXJ57gd5EPvKrw3/25QtjX+a8O6/g0=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+						<div class="mxgraph" style="max-width:100%;border:1px solid transparent;margin: auto;" data-mxgraph="{&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-12-25T21:58:10.013Z\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36\&quot; etag=\&quot;wE-307KhDWepsrtk4weN\&quot; version=\&quot;14.1.2\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;prtHgNgQTEPvFCAcTncT\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
 <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
 
-
-						<a href="#PREQ">Click for preq</a>
-
-
-
-
-					This is my DIV element. </div></p>
+					</div></p>
 					<hr>
 					<p><b>Deep Learning</b><sup style="font-size: 13px;">1</sup> is at the cornerstone of modern machine learning methods in fundamental sciences<sup style="font-size: 13px;">2</sup> and information technologies<sup style="font-size: 13px;">3</sup>. The interest in the field resurged in the last decade and drove significant breakthroughs<sup style="font-size: 13px;">4</sup> in the design and development of learning algorithms, network architectures, and hardware accelerators. These developments are enabling complex tasks<sup style="font-size: 13px;">5</sup> in visual perception and recognition, natural language processing, machine translation, conversational systems, agent-based modeling and control, autonomous vehicles, and robotics. The theoretical foundations<sup style="font-size: 13px;">6</sup> of deep learning also continue to evolve and probe deeper issues such as explainability, expressiveness, and generalization. The computational model of deep learning intersects a diverse range<sup style="font-size: 13px;">7</sup> of disciplines such as biology, neuroscience, information theory, quantum computing, and geometry. As a result, deep learning is a vibrant field of study. Researchers try to solve challenging problems, applications act as feedback to research, and the field is pushed further into discovery.
 					<a href="#0" onclick="myFunction('hider1')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
@@ -197,7 +164,7 @@
 						<ol >
 							
   							<li style="font-size: 19px;font-weight: 400;">The Deep Learning review article (<a href="https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf" target="_blank" rel="noopener noreferrer">2015</a>) presents a crisp summary of the field. A more recent article is A Selective Overview of Deep Learning (<a href="https://arxiv.org/pdf/1904.05526.pdf" target="_blank" rel="noopener noreferrer">2018</a>). If you are an absolute beginner, The Pattern Machine (<a href="https://www.youtube.com/watch?v=YulgDAaHBKw&list=PLbg3ZX2pWlgKV8K6bFJr5dhM7oOClExUJ" target="_blank" rel="noopener noreferrer">2019</a>) series is a suitable place to understand the notion of abstractions, representations, concepts, and learning.</li>
-  							<li style="font-size: 19px;font-weight: 400;">A look at deep learning for science (<a href="https://www.oreilly.com/content/a-look-at-deep-learning-for-science/" target="_blank" rel="noopener noreferrer">2017</a>) discusses scientific use-cases like galaxy shape modeling, particle physics and climate simulations. The article A Survey of Deep Learning for Scientific Discovery (2020) is relatively more comprehensively structured and discusses application to various scientific domains.</li>
+  							<li style="font-size: 19px;font-weight: 400;">A Look At Deep Learning For Science (<a href="https://www.oreilly.com/content/a-look-at-deep-learning-for-science/" target="_blank" rel="noopener noreferrer">2017</a>) discusses scientific use-cases like galaxy shape modeling, particle physics and climate simulations. The article A Survey of Deep Learning for Scientific Discovery (2020) is relatively more comprehensively structured and discusses application to various scientific domains.</li>
   							<li style="font-size: 19px;font-weight: 400;">A blog article (2017) by Adit Deshpande about deep learning based business-centric applications such as speech processing systems, personal assistants, recommendor systems, and so on. As of today, innumerable B2B and B2C technology solutions have a core artificial intelligence system based on deep learning.</li>
 					<div class="prerequisite-section">
 						<img style="border:thin solid #d4d4d4;width: 50%;" src="blackhole.png" alt="Deep Learning" class="center">
@@ -265,7 +232,7 @@
 
 					<hr>
 
-					<p><b>Implementation:</b> Implementation: Programming is crucial as you traverse through the textbooks and courses. The companion reference ‘Dive into Deep Learning’ methodologically covers the implementation of deep learning algorithms via MXNet, TensorFlow, and PyTorch frameworks; you can start with implementing simple feedforward neural networks and progressively implement specialized deep architectures for applications in computer vision, natural language processing, and recommender systems. You may subsequently follow the course ‘Deep Learning from the Foundations’ which recreates the fast.ai course from scratch. This practice not only strengthens your algorithmic fundamentals, but also exposes you to practical issues such as optimization choices, convergence problems, stability of networks, and hardware constraints. At this point, you can start implementing research papers, try to replicate the results, and think about reinventing the solution. It is advantageous to connect with the concerned researchers or their graduate students who can supervise and direct you further. This could lead to new research projects, open-source contributions, conference papers, or a journal publication. More importantly, it will prepare you for complex and challenging implementation tasks in graduate research. 
+					<p><b>Implementation:</b> Programming is crucial as you traverse through the textbooks and courses. The companion reference ‘Dive into Deep Learning’ methodologically covers the implementation of deep learning algorithms via MXNet, TensorFlow, and PyTorch frameworks; you can start with implementing simple feedforward neural networks and progressively implement specialized deep architectures for applications in computer vision, natural language processing, and recommender systems. You may subsequently follow the course ‘Deep Learning from the Foundations’ which recreates the fast.ai course from scratch. This practice not only strengthens your algorithmic fundamentals, but also exposes you to practical issues such as optimization choices, convergence problems, stability of networks, and hardware constraints. At this point, you can start implementing research papers, try to replicate the results, and think about reinventing the solution. It is advantageous to connect with the concerned researchers or their graduate students who can supervise and direct you further. This could lead to new research projects, open-source contributions, conference papers, or a journal publication. More importantly, it will prepare you for complex and challenging implementation tasks in graduate research. 
 					<a href="#0" onclick="myFunction('hider7')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
 					<div id="hider7" style="display: none;"> This is my DIV element. </div></p>	
 
