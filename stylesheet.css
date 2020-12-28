@@ -54,6 +54,11 @@ p {
 	font-weight: 500;
 }
 
+sup
+{
+font-size: 13px;
+}
+
 a {
 	color: #008a8a;
 }
