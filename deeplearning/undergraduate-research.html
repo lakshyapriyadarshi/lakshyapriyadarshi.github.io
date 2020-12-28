@@ -1,0 +1,482 @@
+<! 
+
+    .-"^`\                                        /`^"-.
+  .'   ___\                                      /___   `.
+ /    /.---.                                    .---.\    \
+|    //     '-.  ___________________________ .-'     \\    |
+|   ;|         \/--------------------------//         |;   |       You can connect with me at lakshya@abstractions.dev!
+\   ||       |\_)                          (_/|       ||   /       Thank you for reading the blog. Please share with attribution!
+ \  | \  . \ ;  |   Congratulations!       || ; / .  / |  /        The 'view-page-source' exercise is just for fun :) 
+  '\_\ \\ \ \ \ |   Now,                   ||/ / / // /_/'             ( and I wanted to hide my bad HTML code )
+        \\ \ \ \|   You owe me a dinner!   |/ / / //               Nevertheless, I am always up for dinners and coffee ! :D
+         `'-\_\_\                          /_/_/-'`
+                '--------------------------'
+
+!>
+
+<?xml version="1.0" encoding="utf-8"?>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Lakshya Priyadarshi" />
+	    <meta name="description" content="Deep Learning Research Undergraduate Roadmap">
+  		<meta name="keywords" content="Deep Learning, Research, Undergraduate, Machine Learning, Deep Learning PhD, Deep Learning Masters, Graduate Studies, Machine Learning PhD, Deep Learning Courses, Deep Learning Course, Deep Learning Books, Starting Deep Learning, Introduction to Research, Undergraduate Research, Computer Science, Undergraduate Computer Science">
+		<title>First Steps into Deep Learning Research</title>
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="shortcut icon" href="https://img.icons8.com/ios-filled/100/000000/informatics.png" />
+		<script type="text/javascript" src="home.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+		<style>
+		a:link {
+			text-decoration: none;
+		}
+		
+		body {
+			font-family: "Computer Modern Serif", sans-serif;
+
+		}
+		
+		p {
+			text-align: justify;
+			font-size: 20px;
+			font-weight: 500;
+		}
+		
+		ol {
+			text-align: justify;
+			font-size: 20px;
+			font-weight: 500;
+		}
+		
+
+		</style>
+		<style type="text/css" media="print">
+		html {
+			visibility: hidden;
+			display: none;
+		}
+		</style>
+		<style>
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 0px;
+		}
+		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180528137-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'UA-180528137-1');
+		</script>
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+	</head>
+
+	<body onmousedown="return false" onselectstart="return false">
+		<script>
+		$(document).ready(function() {
+			$("body").on("contextmenu", function(e) {
+				return false;
+			});
+		});
+		</script>
+
+
+
+		<div class="main">
+			<div id="intro_text">
+
+				<div style="display: flex; align-items: center;margin-top:-10px;margin-bottom: -15px;">
+					<a href="https://abstractions.dev/"><img src="icon/icon_new.svg" style="width: 185px; ">
+					</a>
+					<h1>
+						First steps into deep learning research? &nbsp;
+						<a href="https://twitter.com/abstractionsdev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @abstractionsdev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</h1> 
+        		</div>
+
+				<hr>
+
+				<p> 
+					<span class="readme-section"><b>README</b></span>:
+					This letter presents a self-contained learning path to build the foundations of deep learning. It is aimed at advanced undergraduate students interested in graduate studies or in a cutting-edge research career. The idea is to create a sequence of pointers that highlight the central themes in modern deep learning practices. I encourage you to revisit this letter at different stages of your studies and absorb the materials in incremental levels of understanding. Since this letter is based on my (limited) personal experience with the field, it is open to experimentation and scrutiny. Get, set, click <a href="#0" onclick="myFunction('hider0')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a> !
+					
+					<div id="hider0" style="display: none;"> 
+
+						<div class="mxgraph" style="max-width:100%;border:1px solid transparent;margin: auto;" data-mxgraph="{&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-12-27T19:08:39.836Z\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36\&quot; etag=\&quot;vxcT7HPkcEqpjYpeszST\&quot; version=\&quot;14.1.2\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;prtHgNgQTEPvFCAcTncT\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+
+					</div>
+				</p>
+				
+				<hr>
+					
+				<p>
+					<b>Deep Learning</b><sup>1</sup> is at the cornerstone of modern machine learning methods in fundamental sciences<sup >2</sup> and information technologies<sup>3</sup>. The interest in the field resurged in the last decade and drove significant breakthroughs<sup>4</sup> in the design and development of learning algorithms, network architectures, and hardware accelerators. These developments are enabling complex tasks<sup>5</sup> in visual perception and recognition, natural language processing, machine translation, conversational systems, agent-based modeling and control, autonomous vehicles, and robotics. The theoretical foundations<sup>6</sup> of deep learning also continue to evolve and probe deeper issues such as explainability, expressiveness, and generalization. The computational model of deep learning intersects a diverse range<sup>7</sup> of disciplines such as biology, neuroscience, information theory, quantum computing, and geometry. As a result, deep learning is a vibrant field of study. Researchers try to solve challenging problems, applications act as feedback to research, and the field is pushed further into discovery.
+					<a href="#0" onclick="myFunction('hider1')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					
+					<div id="hider1" style="display: none;"> 
+
+						<div style="border:thin solid #6b6b6b;  width: 90%; padding: 5px 22px 5px 6px; text-align: center;" class="center">
+							
+							<div style = "margin-top: 25px;">
+							
+							<b>A CLOSER LOOK AT DEEP LEARNING</b><br>
+						
+							</div>
+						
+							<ol >
+
+								<div class="wrapper">
+								
+								<blockquote class="rule">
+							
+									<p>
+										‘‘It’s [deep learning] very much an interplay between intuitive insights, theoretical modeling, practical implementations, empirical studies, and scientific analyses. The insight is creative thinking, the modeling is mathematics, the implementation is engineering and sheer hacking, the empirical study and the analysis are actual science. What I am most fond of are beautiful and simple theoretical ideas that can be translated into something that works’’ ― Yann Lecun, IEEE Spectrum interview (<a href="https://spectrum.ieee.org/automaton/artificial-intelligence/machine-learning/facebook-ai-director-yann-lecun-on-deep-learning" target="_blank" rel="noopener noreferrer">2015</a>)
+									</p>
+								</blockquote>
+								<br>
+					
+								</div>
+							
+	  							<li style="font-size: 19px;font-weight: 400;">
+	  								The Deep Learning (<a href="https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf" target="_blank" rel="noopener noreferrer">2015</a>) review article presents a crisp summary of the field. A more detailed article is A Selective Overview of Deep Learning (<a href="https://arxiv.org/pdf/1904.05526.pdf" target="_blank" rel="noopener noreferrer">2018</a>). If you are an absolute beginner, The Pattern Machine (<a href="https://www.youtube.com/watch?v=YulgDAaHBKw&list=PLbg3ZX2pWlgKV8K6bFJr5dhM7oOClExUJ" target="_blank" rel="noopener noreferrer">2019</a>) series is a suitable place to understand the notion of abstractions, representations, concepts, and learning.
+	  							</li><br>
+  							
+  								<li>
+  									A Look At Deep Learning For Science (<a href="https://www.oreilly.com/content/a-look-at-deep-learning-for-science/" target="_blank" rel="noopener noreferrer">2017</a>) discusses scientific use-cases like galaxy shape modeling, particle physics and climate simulations. The article A Survey of Deep Learning for Scientific Discovery (2020) is relatively more comprehensively structured and discusses application to various scientific domains.
+  								</li><br>
+  							
+  								<li>
+  									A blog article (<a href="https://adeshpande3.github.io/adeshpande3.github.io/The-Last-5-Years-in-Deep-Learning" target="_blank" rel="noopener noreferrer">2017</a>) by Adit Deshpande about deep learning based business-applications such as speech processing systems, personal assistants, recommendor systems, and so on. As of today, innumerable B2B and B2C technology solutions have a core artificial intelligence system based on deep learning. It is omnipresent!
+  								</li><br>
+
+
+
+  								<li>
+  									The availability of compute resources, algorithmic advancements, and big-data have fueled the deep learning revolution in the 2010s. The blog article Decade of Deep Learning (<a href="https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/" target="_blank" rel="noopener noreferrer">2019</a>) by Leo Gao systematically records the important developments in <i>modern</i> deep learning and provides clear explanations for landmark papers.
+  								</li><br>
+
+  								<li>
+  									Deep learning is approaching complex problems in (<a href="https://ai.facebook.com/blog/improving-scene-understanding-through-panoptic-segmentation/" target="_blank" rel="noopener noreferrer">i</a>) visual perception and recognition, (<a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html" target="_blank" rel="noopener noreferrer">ii</a>) natural language processing, (<a href="https://ai.googleblog.com/2016/09/a-neural-network-for-machine.html" target="_blank" rel="noopener noreferrer">iii</a>) machine translation, (<a href="https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html" target="_blank" rel="noopener noreferrer">iv</a>) conversational systems, (<a href="https://deepmind.com/research/publications/Acme" target="_blank" rel="noopener noreferrer">v</a>) agent-based modeling and control, (<a href="https://www.youtube.com/watch?v=Q0nGo2-y0xY" target="_blank" rel="noopener noreferrer">vi</a>) autonomous vehicles, (<a href="https://research.google/pubs/pub46570/" target="_blank" rel="noopener noreferrer">vii</a>) robotics, and so on. The State of the Art (<a href="https://www.youtube.com/watch?v=0VH1Lim8gL8" target="_blank" rel="noopener noreferrer">2020</a>) lecture is a refined compilation.
+  								</li><br>
+
+  								<li>
+  									Currently, a definitive theory of deep learning does not exist. René Vidal's lecture (<a href="http://www.cis.jhu.edu/~rvidal/talks/learning/Tutorial-Math-Deep-Learning-2018.pdf" target="_blank" rel="noopener noreferrer">2018</a>) presents an overview of key theoretical questions. Tomaso Poggio's article (<a href="https://arxiv.org/pdf/1908.09375.pdf">2019</a>) discusses issues in approximation, optimization, and generalization. DeepMath (<a href="https://deepmath-conference.com/deepmath-2019">2019</a>, <a href="https://www.youtube.com/watch?v=VtE6wahrwAQ&list=PLWQvhvMdDChyAX3P43y-gCFvjMZJWQlQD">2020</a>) discusses the mathematical theory of deep neural networks.
+  								</li><br>
+
+  								<li>
+  									The intersections of deep learning with (<a href="https://www.embopress.org/doi/pdf/10.15252/msb.20156651" target="_blank" rel="noopener noreferrer">i</a>) computational biology, (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7115933/" target="_blank" rel="noopener noreferrer">ii</a>) neuroscience, (<a href="https://www.youtube.com/watch?v=5rk4NcYk3Vg" target="_blank" rel="noopener noreferrer">iii</a>) information theory, (<a href="https://arxiv.org/pdf/1806.09729.pdf" target="_blank" rel="noopener noreferrer">iv</a>) quantum computing, and (<a href="http://geometricdeeplearning.com/" target="_blank" rel="noopener noreferrer">iv</a>) geometry. The Deep Learning for Science  (<a href="https://sites.google.com/lbl.gov/dl4sci2019/agenda" target="_blank" rel="noopener noreferrer">2019</a>, <a href="https://dl4sci-school.lbl.gov/agenda" target="_blank" rel="noopener noreferrer">2020</a>) program discusses several aspects such as high-energy physics, molecular engineering, geometric deep learning, and so on.
+  								</li><br>
+
+  					
+							</ol>
+						</div>
+					</div>
+				</p> 
+
+				<p>
+					However, this super-exponential rate of progress can inundate undergraduate students with its underlying complexities. For example, the essence and implications of GPT3 (hyped)<sup>1</sup> and BigBird<sup>2</sup> can only be appreciated if you have a clear understanding of the fundamentals and insights about advanced concepts like language models and transformers. I have faced this issue in the initial period of my learning as I was mostly dependent on self-study. After a modest experience in the field, I have tried to chart the roadmap for an accessible deep learning course where the learning curve starts from bare fundamentals and touches the arc of state-of-the-art research. It covers basic mathematics, foundations and theory, implementational aspects, and advanced applications. Through this learning path then you could arrive at the frontiers of deep learning research in about six to ten months. The outline is (i) prerequisites, (ii) textbooks, (iii) courses, (iv) research papers, (v) implementation, (vi) exploratory reading, (vii) advanced frontiers, and (viii) executing research.
+					<a href="#0" onclick="myFunction('hider2')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					
+					<div id="hider2" style="display: none;"> 
+
+						<div style="border:thin solid #6b6b6b;  width: 90%; padding: 5px 22px 5px 6px; text-align: center;" class="center">
+							
+							<div style = "margin-top: 25px;">
+							
+							<b>LET US MAKE DEEP LEARNING ACCESSIBLE</b>
+						
+							</div>
+						
+							<ol >
+
+							
+	  							<li style="font-size: 19px;font-weight: 400;">
+	  								GPT3 is an intensively trained language model and a phenomenal engineering feat. However, the <a href="https://thenextweb.com/neural/2020/09/08/the-guardians-gpt-3-generated-article-is-everything-wrong-with-ai-media-hype/" target="_blank" rel="noopener noreferrer">hype</a> surrounding GPT3 obscures the underlying scientific principles. You may look at the paper Language Models are Few-Shot Learners (<a href="https://arxiv.org/pdf/2005.14165.pdf" target="_blank" rel="noopener noreferrer">2020</a>) for technical details and <a href="https://www.youtube.com/watch?v=gFgjVBdeb9M" target="_blank" rel="noopener noreferrer">this</a> talk to understand why it is <i>nowhere</i> close to AGI.    
+	  							</li><br>
+
+  							
+  								<li>
+  									BigBird is a sparse att
+  									
+
+
+  								
+
+
+  								</li><br>
+  							‘’ 
+  								
+
+  					
+							</ol>
+						</div>
+					</div>
+				</p> 
+				<hr>
+
+
+					<p>
+						<b>Prerequisites:</b> The fundamental set of prerequisites is (i) applied mathematics: linear algebra, calculus, statistics, probability theory, information theory, numerical computation, optimization; and (ii) computing: programming, algorithms, data structures, systems, computer architecture. Since deep learning is a particular class of machine learning algorithms, it is necessary to understand its broader algorithmic framework. The basic mathematical foundations are covered in Deisenroth’s MML textbook, and the basics of machine learning<sup>1</sup> are covered in Osvaldo Simeone’s monograph and Alex Smola’s notes. Proficiency in deep learning frameworks<sup>2</sup> like TensorFlow or PyTorch is required for building high-level abstractions and a basic understanding of hardware<sup>3</sup> is useful for building large-scale deep learning systems. As you delve deeper, more specialized set of prerequisites will emerge. In my experience, self-learning is highly nonlinear, distributed, and iterative: you may start <i>now</i> with minimal functional knowledge and keep learning incrementally. 
+					<a href="#0" onclick="myFunction('hider3')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+
+					<div id="hider3" style="display: none;"> 
+
+						<div style="border:thin solid #6b6b6b;  width: 90%; padding: 5px 22px 5px 6px; text-align: center;" class="center">
+							
+							<div style = "margin-top: 25px;">
+							
+							<b>FOUNDATIONS: THE MOST IMPORTANT STEP</b>
+						
+							</div>
+						
+							<ol >
+
+							
+	  							<li>
+
+	  								As a starting point, I will suggest you to learn PyTorch <i>and</i> TensorFlow. A useful exercise is to compare the performance of these two frameworks on some particular implementation and notice the differences. Simran Arora's <a href="https://hackr.io/blog/pytorch-vs-tensorflow" target="_blank" rel="noopener noreferrer">article</a> presents a succint summary and Horace He's <a href="https://thegradient.pub/state-of-ml-frameworks-2019-pytorch-dominates-research-tensorflow-dominates-industry/" target="_blank" rel="noopener noreferrer">article</a> discusses it in the context of research.
+	  								     
+	  							</li><br>
+
+  							
+  								<li>
+  									As of today, PyTorch is extensively used in prototyping as well as research due to strong coupling with Python. I use TensorFlow because it has native integration with Cirq. So, the selection of deep learning framework depends on the nature of computational tasks and the required level of abstraction.
+  								</li>
+  									
+
+
+  								
+
+
+  								</li><br>
+  							‘’ 
+  								
+
+  					
+							</ol>
+						</div>
+					</div>
+				</p> 
+
+					<hr>
+
+					<p><b>Structured learning:</b> At this point, you might have a high-level overview of deep learning. The next step is to systematically understanding its fine details. The textbook Neural Networks and Deep Learning (<a href="https://www.springer.com/gp/book/9783319944623" target="_blank" rel="noopener noreferrer">2018</a>) covers the theory of modern deep neural networks, learning algorithms, standard neural architectures, issues in training deep networks, recent developments in variational autoencoders, attention mechanisms, generative adversarial networks, neural Turing machines, and deep reinforcement learning. It also discusses some less-prevalent architectures such as radial basis function networks, restricted Boltzmann machines, and self-organizing maps. The seminal textbook Deep Learning (<a href="https://www.deeplearningbook.org/" target="_blank" rel="noopener noreferrer">2015</a>) covers chapters about linear factor models, representation learning, probabilistic models, and generative models. Reading these books cover-to-cover will build a concrete foundation for research and you may (i) solve exercises, (ii) advance to implementing deep learning algorithms, and (iii) start reading research papers.
+					<a href="#0" onclick="myFunction('hider4')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider4" style="display: none;"> This is my DIV element. </div></p>					
+					<div class="prerequisite-section">
+						<img style="width: 70%;"src="images/architecture_t.png" alt="Deep Learning" class="center">
+							<p class="center">You will learn about various architectures and their applications to different problems [source: <a href="https://www.asimovinstitute.org/neural-network-zoo/" target="_blank" rel="noopener noreferrer">neural network zoo</a>]</p> 
+					</div> 
+					<hr> 
+					<p><b>Courses:</b> Hugo Larochelle’s course builds a solid theoretical foundation. Yann LeCun’s course covers the latest techniques in supervised and unsupervised deep learning, embedding methods, metric learning, convolutional and recurrent nets. Stanford’s tutorials cover computer vision and natural language processing in depth. MIT’s introductory course extends the coverage to fascinating topics such as domain adaptation, neural rendering, and neurosymbolic hybrid systems; and John Canny’s course covers practical issues in training deep networks and distributed deep learning. Sergey Levine’s deep reinforcement learning course and Pieter Abbeel’s deep unsupervised learning course comprehensively cover the subfields. I would strongly recommend these courses as they discuss ideas beyond the scope of textbooks and create a bridge to the latest research directions. You <i>must</i> also build a <a href="https://cs230.stanford.edu/project/" target="_blank" rel="noopener noreferrer">course project</a> that applies deep learning to a real problem and incorporates the end-to-end machine learning pipeline. This exercise is your first fitness test for further research.
+					<a href="#0" onclick="myFunction('hider5')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider5" style="display: none;"> This is my DIV element. </div></p>		
+					</p>
+
+					<hr> 
+
+
+					<p><b>Reading research papers:</b> The standard (academic) procedure to acquire knowledge about a specific topic is to read a sequence of connected references until you reach the first principles. Reading papers is an excursion into the minds of scientists. You can connect to a diverse range of problems, learn different approaches to tackle them, assess the relevance of a particular solution, and build a mental model to implement it. Since deep learning literature continuously expands<sup>1</sup> in breadth and depth, you must adopt a targeted approach<sup>2</sup> to reading: (i) select a researcher or a subdomain, (ii) start with landmark papers<sup>3</sup>, and (iii) keep track of ‘state-of-the-art’ developments. Communities such as paperswithcode, arxiv-sanity-preserver, paper-reading-club, and conferences such as NIPS, ICLR, AAAI, ICML are the definitive resources. You can document your learning with detailed notes, write monographs or explanatory articles, and communicate your knowledge by teaching others. This will enhance your conceptual understanding and refine you as a researcher. 
+					<a href="#0" onclick="myFunction('hider6')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a><br><br>
+					<div id="hider6" style="display: none;"> This is my DIV element. </div></p>	
+
+					<div class="prerequisite-section">
+						<img style="border:thin solid #d4d4d4;width: 80%;" src="images/papers_read_t.png" alt="Deep Learning" class="center">
+							<p class="center">You can read research papers, study their source code, and create your own experiments [source: <a href="https://paperswithcode.com/paper/pct-point-cloud-transformer" target="_blank" rel="noopener noreferrer">paperswithcode</a>]</p>
+					</div>					
+					</p>
+
+					<hr>
+
+					<p><b>Implementation:</b> Programming is crucial as you traverse through the textbooks and courses. The companion reference ‘Dive into Deep Learning’ methodologically covers the implementation of deep learning algorithms via MXNet, TensorFlow, and PyTorch frameworks; you can start with implementing simple feedforward neural networks and progressively implement specialized deep architectures for applications in computer vision, natural language processing, and recommender systems. You may subsequently follow the course ‘Deep Learning from the Foundations’ which recreates the fast.ai course from scratch. This practice not only strengthens your algorithmic fundamentals, but also exposes you to practical issues such as optimization choices, convergence problems, stability of networks, and hardware constraints. At this point, you can start implementing research papers, try to replicate the results, and think about reinventing the solution. It is advantageous to connect with the concerned researchers or their graduate students who can supervise and direct you further. This could lead to new research projects, open-source contributions, conference papers, or a journal publication. More importantly, it will prepare you for complex and challenging implementation tasks in graduate research. 
+					<a href="#0" onclick="myFunction('hider7')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider7" style="display: none;"> This is my DIV element. </div></p>	
+
+					</p>
+					<hr>
+					<p><b>Visualizations:</b> As the complexity of neural networks increases it becomes challenging to describe their representations, optimization landscapes, nonlinear activations, concept hierarchies, and so on. Interactive learning tools for neural networks, computation graphs, binary classification, convolutional networks, recurrent networks, and generative networks simulate complex computations and simplify the process of understanding deep learning. While you implement algorithms you can visualize the architecture and training process for building visual abstractions. To that end, tools like sensitivity masks, attribution graphs, dataflow graphs, embedding projector, and seq2seq-vis are driving the visual exploration of deep networks and augmenting research in model interpretability and explainable AI systems. It is turning out to be an active area of research.
+					<a href="#0" onclick="myFunction('hider8')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider8" style="display: none;"> This is my DIV element. </div></p>	
+					</p>
+
+					<p><b>Explanatory blogs:</b> State-of-the-art research sometimes involves techniques that are difficult to absorb and assimilate as an undergraduate student. For example, the related mathematics could be opaque or the central ideas could involve concepts from interdisciplinary domains such as physics or neuroscience. In such cases, you should read explanatory blogs that deconstruct and simplify complex ideas into transparent and accessible ones. Some of the ones I have found to be particularly useful are colah, distill, gradientscience, offconvex, losslandscape, explained, jalammar, depthfirstlearning, inference, r2rt, lil-log, echen, adit, shapeofdata, minimizingregret, argmin, syntropy, astroautomata, two-min-papers, arxiv-insights, and reddit. The explanations, analogies, and visualizations presented in these blogs are resourceful in building deep insights and intuitions about relatively abstract concepts as described in the standard literature. You can also write your own blogs.
+					<a href="#0" onclick="myFunction('hider9')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider9" style="display: none;"> This is my DIV element. </div></p>	
+					</p>
+
+					<hr>
+					<p><b>Exploratory reading:</b> As time evolves, scientists and engineers are investigating new and interesting ways in which deep learning can approach extremely complex problems. An effective way of discovering such research and understanding its implications in a particular technology domain is by reading research expositions from DeepMind, Google, OpenAI, FAIR, Nvidia, IBM, ML@Apple, Microsoft, Amazon Science, Phys.org; academic departments such as BAIR, OATML, MILA, ML@CMU, SAIL, CSAIL, CBMM; thought leaders from academia and industry. This practice keeps you informed about the thought process of leading groups in the field and also exposes you to the problems that are being studied extensively. Progressively, it builds a mental model for research.
+					<a href="#0" onclick="myFunction('hider10')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider10" style="display: none;"> This is my DIV element. </div></p>	
+					</p>
+					<hr>
+
+					<p><b>Competitions:</b> Contests have channeled various breakthrough developments in the field. The representative example is ILSVRC 2012 that revolutionized the approaches to visual recognition and lead to an active research interest in CNNs. Several universities and academic departments, conferences such as NeurIPS, CVPR, and ICIAR, and platforms such as codalab and chalearn host challenges to solve specific domain problems or to improve the performance of algorithms on a specific class of tasks or datasets. Competitive deep learning, in the context of research, is creating an exciting avenue for pushing performance benchmarks.
+					<a href="#0" onclick="myFunction('hider11')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider11" style="display: none;"> This is my DIV element. </div></p>	
+					</p>
+
+
+
+					<hr>
+
+					<p><b>Advanced frontiers:</b> As you build a foundation for research, you will observe that ‘state-of-the-art’ in deep learning is a moving target and new developments in computer vision, natural language processing, bioinformatics, speech systems, and robotics are constantly on the horizon. The phenomenal interest in the field has given rise to learning techniques such as transfer learning, self-supervised learning, Bayesian deep learning, domain adaptation, and adversarial examples. Methodologies such as neural architecture search, metalearning, autoML, and model compression have been developed. Deep learning on graphs and geometric deep learning have created new concepts in computer graphics modeling. Generative models are finding applications in art and music. Reinforcement learning is revolutionizing game-play such as Go, Atari, Chess. The trends in hardware developments have evolved and specialized processors such as GPUs, TPUs, and IPUs are enabling deep learning at scale. Quantum computing and neuromorphic computing are reinventing the computational models of neural networks. The integration of systems and deep learning (MLSys) has introduced concepts such as hardware and software co-design, edgeML, and privacy preservation. The explosion of interest in the field, availability of compute resources and big-data, algorithmic advancements, and the emergence (engineering) of ubiquitous applications is pushing deep learning at an unprecedented pace. 
+					<a href="#0" onclick="myFunction('hider12')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+					<div id="hider12" style="display: none;"> This is my DIV element. </div></p>
+					</p>
+					<hr>
+
+					<hr>
+					<p><b>Find your place:</b> Self-learning is learning in a closed loop: you can build a solid foundation, but executing actual research will significantly depend on supervision and collaboration. For this, you need to identify the people involved in the area of your interest and connect with them. The first step will be natural as you explore the field. You must try to visit conferences, seminars, colloquia, symposiums, workshops, tutorials, and webinars. These events have a wide representation of researchers in diverse fields. You may connect with graduate students from academic departments of your interest and build a mentor-to-mentee relationship; it is crucial for building a focused, effective, and meaningful learning experience. Next, you can connect with professors or R&D scientists and discuss your research ideas with them. </p>
+
+					<p><b>Execute research:</b> Once you have developed a sufficient technical base, <i>you</i> should participate in pushing the boundaries of deep learning. The nature of research can be application-oriented, experimental, theoretical, or algorithmic. You can build network architectures, find new methodologies in domain-centric applications, improve benchmarks, prove theoretical bounds, and so on and so forth. For this, you can join a research group as a resident or intern, for summer or winter schools, for senior thesis, or simply as an academic visitor. The aim is to build real experiences with real people and real problems (and come up with solutions). As evident, modern deep learning research spins out of highly collaborative efforts between the industry and academia. As a future graduate student, you may pursue a Masters or PhD internship at Big-Tech firms or deep-tech startups; or as an industrial researcher you may collaborate with universities; it’s your choice. As a starting point: (i) work hard, (ii) build fundamentals, (iii) connect with people, (iv) apply for open positions, (v) get selected, (vi) try solving problems; (vii) repeat!</p>
+					<hr>
+					<p><b>Interdisciplinary learning</b> <span class="readme-section"><b>[OPTIONAL]</b></span>: The foundations of deep learning are built on applied mathematics with direct inspiration from neuroscience, electrical engineering, and physics: the field itself is the result of interdisciplinary exploration. Modern deep learning is transforming applications across several disciplines and driving <a href="https://dl4sci-school.lbl.gov/" target="_blank" rel="noopener noreferrer">scientific practices</a> such as <a href="https://com-cog-book.github.io/com-cog-book/features/intro-com-mod-cog.html" target="_blank" rel="noopener noreferrer">computational models of cognition</a> inspired by artificial neural networks, creating three-dimensional <a href="https://archive.stsci.edu/hlsp/ps1-strm" target="_blank" rel="noopener noreferrer">astronomical imaging</a>g of galaxies, optimizing <a href="https://www.frontiersin.org/articles/10.3389/fchem.2019.00809/full" target="_blank" rel="noopener noreferrer">chemical pattern predictions</a> in computational chemistry, and using reinforcement learning for <a href="https://arxiv.org/pdf/1812.08451.pdf" target="_blank" rel="noopener noreferrer">quantum error correction</a> or <a href="https://www.nature.com/articles/s41534-019-0141-3.pdf" target="_blank" rel="noopener noreferrer">quantum control</a>. Through my personal experience, I have come across beautiful examples of deep learning’s interplay with physics, mathematics, and biology; and this has deepened my fundamental scientific thinking. For example, one of the domains I am currently researching is approximately solving combinatorial optimization problems through variational quantum algorithms and through quantum-inspired classical algorithms. It turns out that the maximum-cut problem can be approached through <a href="https://www.youtube.com/watch?v=9YNwif8tTKw" target="_blank" rel="noopener noreferrer">(i)</a> probabilistic methods based on graph neural networks; <a href="https://arxiv.org/pdf/2003.03600.pdf" target="_blank" rel="noopener noreferrer">(ii)</a> reinforcement learning; <a href="https://www.cs.umd.edu/class/fall2018/cmsc657/projects/group_16.pdf" target="_blank" rel="noopener noreferrer">(iii)</a> quantum approximate optimization algorithm, <a href="https://dl.acm.org/doi/pdf/10.5555/2955239.2955306" target="_blank" rel="noopener noreferrer">(iv)</a> evolutionary algorithms, and <a href="http://www-math.mit.edu/~goemans/PAPERS/maxcut-jacm.pdf" target="_blank" rel="noopener noreferrer">(v)</a> traditional algorithmic techniques. Similarly, the protein folding problem can be approached through (i) distance modeling by deep learning, (ii) language modeling, (iii) variational quantum eigensolver transformer language modeling, (iv) quantum walks, and so on. Physics-informed deep learning systems augment AI research and geometry-inspired graph neural networks solve condensed matter systems and electronic structure problems. It is an interesting aspect of research and all intersecting disciplines drive each other forward. This symbiosis may encourage you to learn fundamental sciences alongside information and computing sciences. </p>
+					
+					<hr>
+					<p><b>Remarks:</b> This letter aims to be the first introduction to research aspects of deep learning and does not include many important developments, research tracks, and applications. As you progress through the field and explore further, you will discover many fascinating ideas within and beyond deep learning. This letter does not also cover the issues within deep learning, such as the nature of intelligence, theoretical inconsistencies, interpretability; and practical issues such as privacy preservation, bias, AI ethics, or compute requirements and energy efficiency. However, these issues need to be addressed<sup style="font-size: 15px;">†</sup> in research. Connecting to the evolution (history) of deep learning is important to understand why certain architectures were needed and how people started thinking about them. It should also be emphasized that other machine learning techniques are of primal importance in research as well as in practical applications. You must cover machine learning in its entirety for a holistic understanding. An important point to consider is that this letter significantly differs from the applied and production-level aspects of deep learning such as software engineering, cloud deployment, or system design. However, interested students can refer to the <a href="https://course.fullstackdeeplearning.com/" target="_blank" rel="noopener noreferrer">fullstackdeeplearning</a> course for related techniques. 
+					<a href="#0" onclick="myFunction('hiderx')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
+
+					<div id="hiderx" style="display: none;"> 
+
+						<div style="border:thin solid #6b6b6b;  width: 90%; padding: 5px 22px 5px 6px; text-align: center;" class="center">
+							<div style = "margin-top: 25px;">
+							<b>BUT DO YOU WANT TO BECOME A DEEP LEARNING ENGINEER?</b>
+						</div>
+						<ol >
+
+				
+  							<li style="font-size: 19px;font-weight: 400;">
+  								If you are inclined towards a <i>core</i> software engineering career that has <i>some</i> overlap with deep learning, focus on computer science fundamentals (programming, algorithms, data structures, systems, architecture) and strengthen your software development skills (software engineering and production, cloud computing). Next, deep learning is a 4-step process: (<a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer">i</a>) Google's crash course; (<a href="https://www.coursera.org/specializations/deep-learning" target="_blank" rel="noopener noreferrer">ii</a>) Andrew Ng’s deeplearning.ai course; (<a href="https://course.fast.ai/" target="_blank" rel="noopener noreferrer">iii</a>) Jeremy Howard’s fast.ai course; (<a href="https://course.fullstackdeeplearning.com/" target="_blank" rel="noopener noreferrer">iv</a>) fullstackdeeplearning course. The closest text companion is François Chollet's Deep Learning with Python (<a href="http://faculty.neu.edu.cn/yury/AAI/Textbook/Deep%20Learning%20with%20Python.pdf" target="_blank" rel="noopener noreferrer">2017</a>) and its associated code. This exercise builds the fundamentals.<br><br>	 
+  							</li>
+  							<li style="font-size: 19px;font-weight: 400;">
+  								Next, start with building end-to-end projects that incorporate data-engineering, model development, hyperparameter tuning, system integration, and cloud deployment. An effective way to strengthen this technical base is to (i) participate in long-term hackathons or deep learning competitions that focus on implementing full-stack solutions to solve industry problems; and then (ii) gaining a <i>relevant</i> internship experience under the guidance of ML practitioners. This will give you an extensive hands-on experience with programming, debugging, and code-profiling; and tune you with the end-to-end project development process. <br><br>
+  							</li>
+  							<li style="font-size: 19px;font-weight: 400;">
+  								Mostly, your engineering effort will be centred around mapping deep learning algorithms to the specific domain applications. For example, you will not program GPU kernels; TensorFlow does it for you. Instead, your expertise will be in modeling the domain problem as a deep learning problem and produce useful business solutions. With practice you will learn the art of designing and developing data-driven systems. Progressively, you should acquire domain knowledge (recommendor systems, natural language understanding, robotics, computational finance,..) and adopt industry best-practices (DevOps, MLOps, CI/CD,..). As the starting step,  build (i) fundamentals; (ii) development experience; (iii) domain knowledge; (iv) repeat!
+
+  							</li>
+
+						</ol>
+						</div>
+					</div>
+					</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<hr>
+					<p><b>Endnotes:</b> All the resources referred in this letter are free, open-access, and available online; one single exception is the <a href="https://www.springer.com/gp/book/9783319944623" target="_blank" rel="noopener noreferrer">Springer textbook</a> that is free only via an institutional access. The hyperlinks are placed at <i>relevant</i> points and redirect to <i>important</i> literature items. In fact, the entire corpus of this letter is designed as a set of pointers which map the field of deep learning. I have also created a condensed presentation that summarizes this article. If you are actually interested in following through this learning path and need help, please get in touch at <i><a href="mailto:lakshya@abstractions.dev"target="_blank" rel="noopener noreferrer">lakshya@abstractions.dev</a></i>. If this letter helps you, please share it with interested students. <span class="readme-section" style="font-size: 20px;"> Have a deep learning</span> ! <i class='fas fa-laptop-code' style='font-size:24px'></i> <i class='fas fa-graduation-cap' style='font-size:24px'></i></p>
+					
+					<div class="wrapper">
+						<blockquote class="rule">
+							<p>‘‘Don't minimize mistakes. Minimize repeat mistakes. Fail in new ways and learn.’’<br> ― <a href="https://lexfridman.com/" target="_blank" rel="noopener noreferrer">@lexfridman</a></p>
+						</blockquote>
+					</div>
+					<hr>
+					<p> Please provide your valued feedback, suggestions, comments, or criticism via filling this <a href="https://forms.gle/mDUebncJBm5kZjN58" target="_blank" rel="noopener noreferrer">survey form</a> or write to me at <i><a href="mailto:feedback@abstractions.dev">feedback@abstractions.dev</a></i>. If you are interested in recieving future communications (blogs) from me about computer science, please mark your email <a href="https://forms.gle/29yKWznehxytYHhh9" target="_blank" rel="noopener noreferrer">here</a>. I look forward to connecting with you!
+						<hr>
+						<br>
+						<a href="//www.dmca.com/Protection/Status.aspx?ID=49894968-6317-4e4a-94a6-d9b2da83263c" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-07.png?ID=49894968-6317-4e4a-94a6-d9b2da83263c" alt="DMCA.com Protection Status" /></a>
+						<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js">
+						</script>
+						<p class="validation"> Thank you for your visit. This article is written by <a href="https://in.linkedin.com/in/lakshyapriyadarshi" target="_blank" rel="noopener noreferrer">Lakshya Priyadarshi</a>
+							<script language="Javascript">
+							document.write("and was last modified on " + document.lastModified + " IST");
+							</script>
+						</p>
+			</div>
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<br>
+	</body>
+
+
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		renderMathInElement(document.body, {});
+	});
+	document.onkeydown = function(e) {
+		if(e.ctrlKey && (e.keyCode === 67 || e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 86 || e.keyCode === 89 || e.keyCode === 85 || e.keyCode === 117)) {
+			alert('you owe me a cup of coffee! \n - l a k s h y a \t ♨  : )');
+			return false;
+		} else {
+			return true;
+		}
+	};
+	$(document).ready(function() {
+		$("body").on("contextmenu", function(e) {
+			return false;
+		});
+	});
+	var clickedOnScrollbar = function(mouseX) {
+		if($(window).outerWidth() <= mouseX) {
+			return true;
+		}
+	}
+	$(document).mousedown(function(e) {
+		var isRightMB;
+		e = e || window.event;
+		if("which" in e) isRightMB = e.which == 3;
+		else if("button" in e) isRightMB = e.button == 2;
+		if(isRightMB) {
+			if(clickedOnScrollbar(e.clientX)) {
+				alert("Right click is not allowed");
+			}
+		}
+	});
+
+
+
+
+	</script>
+	<script>
+	function myFunction(abc) {
+		var x = document.getElementById(abc);
+		if(!x.style.display || x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+	</script>
+	<style>
+	#hider {
+		display: none;
+		color: black;
+		padding: 40px;
+		text-align: center;
+		border-style: solid;
+
+	}
+	</style>
+
+	</html>
+
