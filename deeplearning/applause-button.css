@@ -74,14 +74,16 @@ applause-button.clapped svg g.outline {
 
 applause-button .count-container {
 	position: absolute;
-	top: -40%;
+	top: -70%;
 	width: 100%;
 	color: gray;
 	user-select: none
 }
 
 applause-button .count-container .count {
-	text-align: center
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 
 applause-button g.sparkle circle {
