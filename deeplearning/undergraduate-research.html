@@ -30,6 +30,8 @@
 		<script type="text/javascript" src="home.js"></script>
 		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+		  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
 		<style>
 		a:link {
 			text-decoration: none;
@@ -84,15 +86,6 @@
 	</head>
 
 	<body onmousedown="return false" onselectstart="return false">
-		<script>
-		$(document).ready(function() {
-			$("body").on("contextmenu", function(e) {
-				return false;
-			});
-		});
-		</script>
-
-
 
 		<div class="main">
 			<div id="intro_text">
@@ -102,11 +95,12 @@
 					</a>
 					<h1>
 						First steps into deep learning research?
-						<a href="https://twitter.com/abstractionsdev?ref_src=twsrc%5Etfw"><img src="icon/twitter.svg" style="width: 30px; "></a>
-						<a href="https://twitter.com/share?ref_src=twsrc%5Etfw"><img src="icon/twitter.svg" style="width: 30px; "></a>
+						<!a href="https://twitter.com/abstractionsdev?ref_src=twsrc%5Etfw"><!img src="icon/twitter.svg" style="width: 30px; "><!/a>
 						<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><b>Tweet</b></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 						<script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
 						<script type="IN/Share" data-url="https://abstractions.dev/deeplearning/undergraduate-research.html"></script>
+
+						<applause-button style="width: 58px; height: 58px;"/>
 					</h1> 
         		</div>
 
@@ -114,7 +108,7 @@
 
 				<p> 
 					<span class="readme-section"><b>README</b></span>:
-					This letter presents a self-contained learning path to build the foundations of deep learning. It is aimed at advanced undergraduate students interested in graduate studies or research. The idea is to create a sequence of pointers that highlight the central themes in modern deep learning. I encourage you to revisit this letter at different stages of your studies and absorb the materials in incremental levels of understanding. Since this letter is based on my (limited) personal experience with the field, it is open to experimentation and scrutiny. Get, set, click <a href="#0" onclick="myFunction('hider0')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a> !
+					This letter presents a self-contained learning path to build the foundations of deep learning. It is aimed at advanced undergraduate students interested in graduate studies or research. The idea is to create a sequence of pointers that highlight the central themes in modern deep learning. I encourage you to revisit this letter at different stages of your studies and absorb the materials in incremental levels of understanding. Since this letter is based on my (limited) personal experience with the field, it is open to experimentation and scrutiny. All the best! Please note that <a href="#0" onclick="myFunction('hider0')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a> is clickable !
 					
 					<div id="hider0" style="display: none;"> 
 
@@ -311,12 +305,14 @@
 
 					</p>
 					<hr>
-					<p><b>Visualizations:</b> As the complexity of neural networks increases it becomes challenging to describe their representations, optimization landscapes, nonlinear activations, concept hierarchies, and so on. Interactive learning tools for neural networks, computation graphs, binary classification, convolutional networks, recurrent networks, and generative networks simulate complex computations and simplify the process of understanding deep learning. While you implement algorithms you can visualize the architecture and training process for building visual abstractions. To that end, tools like sensitivity masks, attribution graphs, dataflow graphs, embedding projector, and seq2seq-vis are driving the visual exploration of deep networks and augmenting research in model interpretability and explainable AI systems. It is turning out to be an active area of research.
+					<p><b>Visualizations:</b> As the complexity of neural networks increases it becomes challenging to describe their representations, optimization landscapes, nonlinear activations, concept hierarchies, and so on. The process of understanding deep architectures can be simplified by using interactive learning tools that simulate the complex computations of deep neural networks and visualize the transformations. 
+
+						Interactive learning tools for neural networks, computation graphs, binary classification, convolutional networks, recurrent networks, and generative networks simulate complex computations and simplify the process of learning these topics. While you implement algorithms you can visualize the architecture and training process for building visual abstractions. To that end, tools like sensitivity masks, attribution graphs, dataflow graphs, embedding projector, and seq2seq-vis are driving the visual exploration of deep networks and augmenting research in model interpretability and explainability. It is turning out to be an active area of research.
 					<a href="#0" onclick="myFunction('hider8')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
 					<div id="hider8" style="display: none;"> This is my DIV element. </div></p>	
 					</p>
 
-					<p><b>Explanatory blogs:</b> State-of-the-art research sometimes involves techniques that are difficult to absorb and assimilate as an undergraduate student. For example, the related mathematics could be opaque or the central ideas could involve concepts from interdisciplinary domains such as physics or neuroscience. In such cases, you should read explanatory blogs that deconstruct and simplify complex ideas into transparent and accessible ones. Some of the ones I have found to be particularly useful are colah, distill, gradientscience, offconvex, losslandscape, explained, jalammar, depthfirstlearning, inference, r2rt, lil-log, echen, adit, shapeofdata, minimizingregret, argmin, syntropy, astroautomata, two-min-papers, arxiv-insights, and reddit. The explanations, analogies, and visualizations presented in these blogs are resourceful in building deep insights and intuitions about relatively abstract concepts as described in the standard literature. You can also write your own blogs.
+					<p><b>Explanatory blogs:</b> State-of-the-art research sometimes involves techniques that are difficult to absorb and assimilate as an undergraduate student. For example, the related mathematics could be opaque or the central ideas could involve concepts from interdisciplinary domains such as physics or neuroscience. In such cases, you should read explanatory blogs that deconstruct and simplify complex ideas into transparent and accessible ones. Some of the ones I have found to be particularly useful are colah, distill, gradientscience, offconvex, losslandscape, explained, jalammar, depthfirstlearning, inference, r2rt, lil-log, echen, adit, shapeofdata, minimizingregret, argmin, syntropy, astroautomata, two-min-papers, arxiv-insights, and reddit. The explanations, analogies, and visualizations presented in these blogs are resourceful in building deep insights and intuitions about relatively abstract concepts as described in the standard literature. Write your own!
 					<a href="#0" onclick="myFunction('hider9')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
 					<div id="hider9" style="display: none;"> This is my DIV element. </div></p>	
 					</p>
@@ -328,7 +324,7 @@
 					</p>
 					<hr>
 
-					<p><b>Competitions:</b> Contests have channeled various breakthrough developments in the field. The representative example is ILSVRC 2012 that revolutionized the approaches to visual recognition and lead to an active research interest in CNNs. Several universities and academic departments, conferences such as NeurIPS, CVPR, and ICIAR, and platforms such as codalab and chalearn host challenges to solve specific domain problems or to improve the performance of algorithms on a specific class of tasks or datasets. Competitive deep learning, in the context of research, is creating an exciting avenue for pushing performance benchmarks.
+					<p><b>Competitions:</b> Contests have channeled various breakthroughs in the field. The representative example is ILSVRC 2012 that revolutionized visual recognition and lead to an active research interest in CNNs. Several universities and academic departments, conferences, and web platforms such as codalab and chalearn host challenges to solve specific domain problems or to improve the performance of algorithms on a specific class of tasks or datasets. Such challenges often lead to new algorithmic developments and push the performance benchmarks.
 					<a href="#0" onclick="myFunction('hider11')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
 					<div id="hider11" style="display: none;"> This is my DIV element. </div></p>	
 					</p>
@@ -406,7 +402,8 @@
 					<p> Please provide your valued feedback, suggestions, comments, or criticism via filling this <a href="https://forms.gle/mDUebncJBm5kZjN58" target="_blank" rel="noopener noreferrer">survey form</a> or write to me at <i><a href="mailto:feedback@abstractions.dev">feedback@abstractions.dev</a></i>. If you are interested in recieving future communications (blogs) from me about computer science, please mark your email <a href="https://forms.gle/29yKWznehxytYHhh9" target="_blank" rel="noopener noreferrer">here</a>. I look forward to connecting with you!
 						<hr>
 						<br>
-						<a href="//www.dmca.com/Protection/Status.aspx?ID=49894968-6317-4e4a-94a6-d9b2da83263c" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-07.png?ID=49894968-6317-4e4a-94a6-d9b2da83263c" alt="DMCA.com Protection Status" /></a>
+
+						<a href="//www.dmca.com/Protection/Status.aspx?ID=49894968-6317-4e4a-94a6-d9b2da83263c" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-07.png?ID=49894968-6317-4e4a-94a6-d9b2da83263c" alt="DMCA.com Protection Status" style="margin-top: -20px;"></a>
 						<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js">
 						</script>
 						<p class="validation"> Thank you for your visit. This article is written by <a href="https://in.linkedin.com/in/lakshyapriyadarshi" target="_blank" rel="noopener noreferrer">Lakshya Priyadarshi</a>
@@ -461,6 +458,13 @@
 
 
 	</script>
+			<script>
+		$(document).ready(function() {
+			$("body").on("contextmenu", function(e) {
+				return false;
+			});
+		});
+		</script>
 	<script>
 	function myFunction(abc) {
 		var x = document.getElementById(abc);
