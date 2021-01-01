@@ -3,6 +3,12 @@ applause-button {
 	cursor: pointer
 }
 
+element.style {
+    fill: rgb(17, 128, 127);
+    stroke: rgb(17, 128, 127);
+    color: rgb(17, 128, 127);
+}
+
 applause-button .style-root {
 	position: absolute;
 	top: 0;
