@@ -41,57 +41,51 @@
 
 		<title>First Steps into Deep Learning Research</title>
   
-
-		<style type="text/css" media="print">
-		html {
-			visibility: hidden;
-			display: none;
-		}
-		</style>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180528137-1"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-		gtag('config', 'UA-180528137-1');
-		</script>
-		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-
 	</head>
 
 	<body onmousedown="return true" onselectstart="return false">
 
 		<div class="main">
 
-
-
 			<div id="intro_text">
 
 				<div style="display: flex; align-items: center;margin-top:-10px;margin-bottom: -15px;">
-					<a href="https://abstractions.dev/"><img src="icon/icon_new.svg" style="width: 185px; ">
+					
+					<a href="https://abstractions.dev/">
+						<img src="icon/icon_new.svg" style="width: 185px;margin-left: -20px;">
 					</a>
 
-
 					<h1>
-
 						<div style="display: flex;">
-						First steps into deep learning research?<br>
-						<applause-button style="width: 64px; height: 64px;margin-left: 60px;"/ multiclap = "true" url="https://abstractions.dev/deeplearning/undergraduate-research.html" > <br><br><br>
-						</applause-button>
+							<div style="margin-right: -20px;">
+
+								First steps into deep learning research?
+								
+								<br>
+								<span class="header_section">
+
+									3/01/2020 • 23 min read • Lakshya Priyadarshi &nbsp;
+
+										<a href="https://www.linkedin.com/in/lakshyapriyadarshi/" 
+										target="_blank" rel="noopener noreferrer">
+
+											<img src="images/linkedin_gray.png" alt="Deep Learning"
+											style="width:16px;height:16px;margin-bottom: -1px;">
+										</a>
+								</span>
+							</div>
+						
+							<div>
+								<applause-button 
+									style="width: 70px; height: 70px;margin-left: 60px;"
+									multiclap = "true" url="https://abstractions.dev/deeplearning/undergraduate-research.html" >
+								</applause-button>
+							</div>
+
 						</div>
 
+					</h1>
 
-						
-
-
-
-					</h1> 
         		</div>
 
 				<hr>
@@ -342,9 +336,9 @@
 
 
 				</p>
-	
+					
 
-
+					
 
 					<hr> 
 				</p>
@@ -367,11 +361,50 @@
 
 					<hr>
 
-					<p><b>Implementation:</b> Programming is crucial as you traverse through the textbooks and courses. The companion reference ‘Dive into Deep Learning’ methodologically covers the implementation of deep learning algorithms via MXNet, TensorFlow, and PyTorch frameworks; you can start with implementing simple feedforward neural networks and progressively implement specialized deep architectures for applications in computer vision, natural language processing, and recommender systems. You may subsequently follow the course ‘Deep Learning from the Foundations’ which recreates the fast.ai course from scratch. This practice not only strengthens your algorithmic fundamentals, but also exposes you to practical issues such as optimization choices, convergence problems, stability of networks, and hardware constraints. At this point, you can start implementing research papers, try to replicate the results, and think about reinventing the solution. It is advantageous to connect with the concerned researchers or their graduate students who can supervise and direct you further. This could lead to new research projects, open-source contributions, conference papers, or a journal publication. More importantly, it will prepare you for complex and challenging implementation tasks in graduate research. 
+					<p><b>Implementation:</b> Programming is crucial as you traverse through the textbooks and courses. This includes the implementation of core algorithms to build a conceptual understanding, experimentation with various frameworks that provide high-level abstractions and functionalities, and building resource-optimized end-to-end systems. The companion reference for this exercise is (<a href="https://d2l.ai/" target="_blank" rel="noopener noreferrer">i</a>) the codebook Dive into Deep Learning  and (<a href="https://www.fast.ai/2019/06/28/course-p2v3/" target="_blank" rel="noopener noreferrer">ii</a>) the course Deep Learning from the Foundations. It recreates the fast.ai course from scratch. This practice strengthens your algorithmic fundamentals and exposes you to practical issues such as optimization choices, convergence problems, stability of networks, and hardware constraints. Next, you can start implementing research papers. Along the way, it is highly advantageous to produce useful open-source contributions.
 					<a href="#0" onclick="myFunction('hider7')" style='font-size:16px;color:#006960;'><i  class='far'>&#xf086;</i></a>
-					<div id="hider7" style="display: none;"> This is my DIV element. </div></p>	
 
-					</p>
+					<div id="hider7" style="display: none;"> 
+
+						<div style="border:thin solid #6b6b6b;  width: 70%; padding: 5px 22px 5px 6px; text-align: center;" class="center">
+							
+							<div style = "margin-top: 25px;">
+							
+							<b>FOUNDATIONS: THE MOST IMPORTANT STEP</b>
+						
+							</div>
+						
+							<ol >
+
+	  							<li>
+
+	  								Whn you implement research papers, try to replicate the algorithmic steps and also think about reinventing the solution. It is advantageous to connect with the concerned researchers or their graduate students who can supervise and direct you further. This could lead to new research projects, open-source contributions, conference papers, or a journal publication.  
+	  								     
+	  							</li><br>
+	  							
+	  								<div class="prerequisite-section">
+										<img style="width: 45%;"src="images/tf_v_pytorch_t.png" alt="Deep Learning" class="center">
+
+									</div> 
+
+							
+	  							<li>
+
+	  								As a starting point, I will suggest you to learn PyTorch <i>and</i> TensorFlow. The differences will introduce you to many practical concepts that arise in implementation. Simran’s article (<a href="https://hackr.io/blog/pytorch-vs-tensorflow" target="_blank" rel="noopener noreferrer">2020</a>) presents a succint summary and Horace’s article (<a href="https://thegradient.pub/state-of-ml-frameworks-2019-pytorch-dominates-research-tensorflow-dominates-industry/" target="_blank" rel="noopener noreferrer">2019</a>) discusses DL frameworks in the context of research.
+
+
+	  								     
+	  							</li><br>
+
+  							
+  								<li>
+  									The courses that I have listed follow TensorFlow (<a href="https://d2l.ai" target="_blank" rel="noopener noreferrer">d2l.ai</a>) as well as PyTorch (<a href="https://fast.ai" target="_blank" rel="noopener noreferrer">fast.ai</a>). After you learn the basics of <a href="https://www.tensorflow.org/tutorials" target="_blank" rel="noopener noreferrer">TensorFlow</a> and <a href="https://pytorch.org/tutorials/" target="_blank" rel="noopener noreferrer">PyTorch</a> and have some idea of implementation, you can proceed to TensorFlow for Deep Learning Research (<a href="http://web.stanford.edu/class/cs20si/syllabus.html" target="_blank" rel="noopener noreferrer">2020</a>) and PyTorch Hub for Researchers (<a href="https://pytorch.org/hub/research-models" target="_blank" rel="noopener noreferrer">2020</a>).
+
+  								</li><br>  					
+							</ol>
+						</div>
+					</div>
+				</p>
 					<hr>
 					<p><b>Visualizations:</b> As the complexity of neural networks increases it becomes challenging to describe their representations, computations, optimization landscapes, nonlinear activations, concept hierarchies, and so on. Interactive simulation tools for neural networks, computation graphs, binary classification, convolutional networks, recurrent networks, generative networks enhance conceptual understanding. You can visualize deep architectures in the implementation of learning algorithms. To that end, graphic tools like sensitivity masks, attribution graphs, dataflow graphs, embedding projector, and seq2seq-vis are driving the visual exploration of deep neural networks and are augmenting research in model interpretability and explainabile machine learning.
 
@@ -513,7 +546,7 @@
 
 					<p><b>Execute research:</b> Once you have developed a sufficient technical base, <i>you</i> should participate in pushing the boundaries of deep learning. The nature of research can be application-oriented, experimental, theoretical, or algorithmic. You can build network architectures, find new methodologies in domain-centric applications, improve benchmarks, prove theoretical bounds, and so on and so forth. For this, you can join a research group as a resident or intern, for summer or winter schools, for senior thesis, or simply as an academic visitor. The aim is to build real experiences with real people and real problems (and come up with solutions). As evident, modern deep learning research spins out of highly collaborative efforts between the industry and academia. As a future graduate student, you may pursue a Masters or PhD internship at Big-Tech firms or deep-tech startups; or as an industrial researcher you may collaborate with universities; it’s your choice. As a starting point: (i) work hard, (ii) build fundamentals, (iii) connect with people, (iv) apply for open positions, (v) get selected, (vi) try solving problems; (vii) repeat!</p>
 					<hr>
-					<p><b>Interdisciplinary learning</b> <span class="readme-section"><b>[OPTIONAL]</b></span>: The foundations of deep learning are built on applied mathematics with direct inspiration from neuroscience, electrical engineering, and physics: the field itself is the result of interdisciplinary exploration. Modern deep learning is transforming applications across several disciplines and driving <a href="https://dl4sci-school.lbl.gov/" target="_blank" rel="noopener noreferrer">scientific practices</a> such as <a href="https://com-cog-book.github.io/com-cog-book/features/intro-com-mod-cog.html" target="_blank" rel="noopener noreferrer">computational models of cognition</a> inspired by artificial neural networks, creating three-dimensional <a href="https://archive.stsci.edu/hlsp/ps1-strm" target="_blank" rel="noopener noreferrer">astronomical imaging</a>g of galaxies, optimizing <a href="https://www.frontiersin.org/articles/10.3389/fchem.2019.00809/full" target="_blank" rel="noopener noreferrer">chemical pattern predictions</a> in computational chemistry, and using reinforcement learning for <a href="https://arxiv.org/pdf/1812.08451.pdf" target="_blank" rel="noopener noreferrer">quantum error correction</a> or <a href="https://www.nature.com/articles/s41534-019-0141-3.pdf" target="_blank" rel="noopener noreferrer">quantum control</a>. Through my personal experience, I have come across beautiful examples of deep learning’s interplay with physics, mathematics, and biology; and this has deepened my fundamental scientific thinking. For example, one of the domains I am currently researching is approximately solving combinatorial optimization problems through variational quantum algorithms and through quantum-inspired classical algorithms. It turns out that the maximum-cut problem can be approached through <a href="https://www.youtube.com/watch?v=9YNwif8tTKw" target="_blank" rel="noopener noreferrer">(i)</a> probabilistic methods based on graph neural networks; <a href="https://arxiv.org/pdf/2003.03600.pdf" target="_blank" rel="noopener noreferrer">(ii)</a> reinforcement learning; <a href="https://www.cs.umd.edu/class/fall2018/cmsc657/projects/group_16.pdf" target="_blank" rel="noopener noreferrer">(iii)</a> quantum approximate optimization algorithm, <a href="https://dl.acm.org/doi/pdf/10.5555/2955239.2955306" target="_blank" rel="noopener noreferrer">(iv)</a> evolutionary algorithms, and <a href="http://www-math.mit.edu/~goemans/PAPERS/maxcut-jacm.pdf" target="_blank" rel="noopener noreferrer">(v)</a> traditional algorithmic techniques. Similarly, the protein folding problem can be approached through (i) distance modeling by deep learning, (ii) language modeling, (iii) variational quantum eigensolver transformer language modeling, (iv) quantum walks, and so on. Physics-informed deep learning systems augment AI research and geometry-inspired graph neural networks solve condensed matter systems and electronic structure problems. It is an interesting aspect of research and all intersecting disciplines drive each other forward. This symbiosis may encourage you to learn fundamental sciences alongside information and computing sciences. </p>
+					<p><b>Interdisciplinary learning</b> <span class="readme-section"><b>[OPTIONAL]</b></span>: The foundations of deep learning are built on applied mathematics with direct inspiration from neuroscience, electrical engineering, and physics: the field itself is the result of interdisciplinary exploration. Modern deep learning is transforming applications across several disciplines and driving <a href="https://dl4sci-school.lbl.gov/" target="_blank" rel="noopener noreferrer">scientific practices</a> such as <a href="https://com-cog-book.github.io/com-cog-book/features/intro-com-mod-cog.html" target="_blank" rel="noopener noreferrer">computational models of cognition</a> inspired by artificial neural networks, creating three-dimensional <a href="https://archive.stsci.edu/hlsp/ps1-strm" target="_blank" rel="noopener noreferrer">astronomical imaging</a>g of galaxies, optimizing <a href="https://www.frontiersin.org/articles/10.3389/fchem.2019.00809/full" target="_blank" rel="noopener noreferrer">chemical pattern predictions</a> in computational chemistry, and using reinforcement learning for <a href="https://arxiv.org/pdf/1812.08451.pdf" target="_blank" rel="noopener noreferrer">quantum error correction</a> or <a href="https://www.nature.com/articles/s41534-019-0141-3.pdf" target="_blank" rel="noopener noreferrer">quantum control</a>. Through my personal experience, I have come across beautiful examples of deep learning’s interplay with physics, mathematics, and biology; and this has deepened my fundamental scientific thinking. For example, one of the domains I am currently researching is approximately solving combinatorial optimization problems through variational quantum algorithms and through quantum-inspired classical algorithms. It turns out that the maximum-cut problem can be approached through <a href="https://www.youtube.com/watch?v=9YNwif8tTKw" target="_blank" rel="noopener noreferrer">(i)</a> probabilistic methods based on graph neural networks; <a href="https://arxiv.org/pdf/2003.03600.pdf" target="_blank" rel="noopener noreferrer">(ii)</a> reinforcement learning; <a href="https://www.cs.umd.edu/class/fall2018/cmsc657/projects/group_16.pdf" target="_blank" rel="noopener noreferrer">(iii)</a> quantum approximate optimization algorithm, <a href="https://dl.acm.org/doi/pdf/10.5555/2955239.2955306" target="_blank" rel="noopener noreferrer">(iv)</a> evolutionary algorithms, and <a href="http://www-math.mit.edu/~goemans/PAPERS/maxcut-jacm.pdf" target="_blank" rel="noopener noreferrer">(v)</a> traditional algorithmic techniques. Similarly, the protein folding problem can be approached through (<a href="https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology" target="_blank" rel="noopener noreferrer">i</a>) distance modeling by deep learning, (<a href="https://blog.einstein.ai/provis/" target="_blank" rel="noopener noreferrer">ii</a>) transformer-based language modeling, (<a href="https://protein-folding-demo.mybluemix.net/" target="_blank" rel="noopener noreferrer">iii</a>) variational quantum eigensolver, (<a href="https://arxiv.org/pdf/1906.09184.pdf" target="_blank" rel="noopener noreferrer">iv</a>) quantum walks, and so on. Physics-informed deep learning systems augment AI research and geometry-inspired graph neural networks solve condensed matter systems and electronic structure problems. It is an interesting aspect of research and all intersecting disciplines drive each other forward. This symbiosis may encourage you to learn fundamental sciences alongside information and computing sciences. </p>
 					
 					<hr>
 					<p><b>Remarks:</b> This letter aims to be the first introduction to research aspects of deep learning and does not include many important developments, research tracks, and applications. As you progress through the field and explore further, you will discover many fascinating ideas within and beyond deep learning. This letter does not also cover the issues within deep learning, such as the nature of intelligence, theoretical inconsistencies, interpretability; and practical issues such as privacy preservation, bias, AI ethics, or compute requirements and energy efficiency. However, these issues need to be addressed<sup style="font-size: 15px;">†</sup> in research. Connecting to the evolution (history) of deep learning is important to understand why certain architectures were needed and how people started thinking about them. It should also be emphasized that other machine learning techniques are of primal importance in research as well as in practical applications. You must cover machine learning in its entirety for a holistic understanding. An important point to consider is that this letter significantly differs from the applied and production-level aspects of deep learning such as software engineering, cloud deployment, or system design. However, interested students can refer to the <a href="https://course.fullstackdeeplearning.com/" target="_blank" rel="noopener noreferrer">fullstackdeeplearning</a> course for related techniques. 
@@ -701,6 +734,19 @@ fjs.parentNode.insertBefore(js, fjs);
 		}
 	}
 	</script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180528137-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'UA-180528137-1');
+		</script>
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	<style>
 	#hider {
 		display: none;
@@ -712,7 +758,12 @@ fjs.parentNode.insertBefore(js, fjs);
 	}
 	</style>
 
-
+		<style type="text/css" media="print">
+		html {
+			visibility: hidden;
+			display: none;
+		}
+		</style>
 
 
 	</html>
