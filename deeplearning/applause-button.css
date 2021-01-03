@@ -3,11 +3,6 @@ applause-button {
 	cursor: pointer
 }
 
-element.style {
-    fill: rgb(17, 128, 127);
-    stroke: rgb(17, 128, 127);
-    color: rgb(17, 128, 127);
-}
 
 applause-button .style-root {
 	position: absolute;
@@ -80,7 +75,8 @@ applause-button.clapped svg g.outline {
 
 applause-button .count-container {
 	position: absolute;
-	top: -70%;
+	top:15%;
+	right:-95%;
 	width: 100%;
 	color: gray;
 	user-select: none
@@ -89,7 +85,6 @@ applause-button .count-container {
 applause-button .count-container .count {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px; 
 
 }
 
