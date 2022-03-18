@@ -10,7 +10,7 @@ keywords = "Hugo, Bootstrap, Blog Theme"
 # metaRobots = "" # disable Meta Tag "robots"
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
-# logo = false # Disable Logo
+logo = false # Disable Logo
 brand = "abstractions.dev"
 
 palette = "blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
@@ -103,12 +103,12 @@ backgroundImage = ['/images/bg-light.png', '/images/bg-dark.png']
   # sa = true # Adaptations must be shared under the same terms.
 
 [utterances]
-  repo = "razonyang/hugo-theme-bootstrap-comments" # Replace with your repository.
+  repo = "lakshyapriyadarshi/blog-comments-utterances" # Replace with your repository.
   #issueTerm = "pathname" # pathname, url, title, og:title
   #label = "comment"
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
-  #theme = "" 
+  theme = "github-dark" 
 
 [search]
   paginate = 5 # Pagination. Default to 10.
