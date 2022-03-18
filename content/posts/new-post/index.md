@@ -1,7 +1,7 @@
 +++
 author = "Hugo Authors"
-title = "Emoji Support"
-date = "2019-03-05"
+title = "New-Post"
+date = "2022-03-18"
 description = "Guide to emoji usage in Hugo"
 categories = [
 ]
