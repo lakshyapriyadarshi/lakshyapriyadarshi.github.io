@@ -1,9 +1,9 @@
-name = "Razon Yang"
+name = "Lakshya"
 # avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
-bio = "Gopher, PHPer, Full Stack Engineer."
+bio = "Technologist | Human"
 company = 'Company'
 # company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
-location = "Earth"
+location = "India"
 # alternatives:
 # location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
 # location = "<a href='https://www.google.com/maps/search/Earth'>Earth</a>"
@@ -14,6 +14,6 @@ location = "Earth"
 
 [social]
   email = "user@domain.tld"
-  facebook = "yourfacebookusername"
+  #facebook = "yourfacebookusername"
   github = "yourgithubusername"
   twitter = "yourtwitterusername"
