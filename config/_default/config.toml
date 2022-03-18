@@ -1,8 +1,8 @@
-baseURL = "https://example.com"
-title = "Hugo Bootstrap"
+baseURL = "https://lakshyapriyadarshi.github.io/"
+title = "Abstractions"
 theme = "hugo-theme-bootstrap" # install via git submodule
 # theme = "github.com/razonyang/hugo-theme-bootstrap" # install via hugo module
-copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
+copyright = "Copyright © 2021-{year} Lakshya Priyadarshi. All Rights Reserved."
 
 # Multilingual mode
 defaultContentLanguage = "en"
