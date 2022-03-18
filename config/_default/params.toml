@@ -11,13 +11,13 @@ keywords = "Hugo, Bootstrap, Blog Theme"
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 # logo = false # Disable Logo
-brand = "BOOTSTRAP"
+brand = "abstractions.dev"
 
 palette = "blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
 # palettes = [] # Disable palette switcher.
 
-# color = "dark" # light, dark or dynamic. Default to dynamic.
+color = "dark" # light, dark or dynamic. Default to dynamic.
 
 # fullWidth = true # Full width.
 # fixedHeader = false # Turn on/off fixed header.
@@ -27,7 +27,7 @@ palette = "blue" # Default palette. Optional. You'll need to clear the browser c
 # Google Adsense
 googleAdsense = ""
 
-# math = true # Enable math globally.
+math = true # Enable math globally.
 # toc = false # Disable TOC globally.
 # breadcrumb = false # Disable breadcrumb
 # diagram = true
@@ -66,7 +66,7 @@ titleCase = true # Capitalized title.
 
 viewer = true # Image Viewer
 
-# backgroundImage = ['/images/bg-light.png', '/images/bg-dark.png']
+backgroundImage = ['/images/bg-light.png', '/images/bg-dark.png']
 # rss = "home" # link the RSS button to homepage all the times.
 
 [codeBlock]
@@ -124,8 +124,8 @@ viewer = true # Image Viewer
     # useExtendedSearch = true
 
 [reward]
-  alipay = "images/reward/alipay.png"
-  wechat = "images/reward/wechat.png"
+  #alipay = "images/reward/alipay.png"
+  #wechat = "images/reward/wechat.png"
   #paypal = "images/reward/paypal.png"
   #patreon = "images/reward/patreon.png"
   #liberapay = "images/reward/liberapay.png"
