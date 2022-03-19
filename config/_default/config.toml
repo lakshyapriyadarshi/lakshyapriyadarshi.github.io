@@ -6,11 +6,11 @@ copyright = "Copyright © 2021-{year} Lakshya Priyadarshi. All Rights Reserved."
 
 # Multilingual mode
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true # If you use only one language comment this option
+#defaultContentLanguageInSubdir = true # If you use only one language comment this option
 #disableLanguages = ["fr", "zh-cn" ,"zh-tw"] # Uncomment in order to disable one or more language
 
 # Pagination
-paginate = 10
+paginate = 7
 # paginatePath = "page"
 
 # Disqus
