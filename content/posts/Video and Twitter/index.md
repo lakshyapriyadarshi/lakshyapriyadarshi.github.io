@@ -5,9 +5,9 @@ date = "2022-03-18"
 description = ""
 toc = "true"
 
-images = [
+<!images = [
   "images/equuations-black.jpg"
-]
+]!>
 
 categories = [
 ]
