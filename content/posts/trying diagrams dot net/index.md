@@ -1,0 +1,18 @@
++++
+author = "Hugo Authors"
+title = "Trying draw.io"
+date = "2022-03-18"
+description = "Guide to emoji usage in Hugo"
+categories = [
+]
+tags = [
+    "Tools",
+]
++++
+
+
+<div style = "margin:auto;" class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2022-03-20T15:25:49.652Z\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36\&quot; etag=\&quot;dHcLkQ1j6ahGf-8tzqnO\&quot; version=\&quot;17.1.3\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;C5RBs43oDa-KdzZeNtuy\&quot; name=\&quot;Page-1\&quot;&gt;7VjbcpswEP0aT5+aweDYzmNI4vTitmnTNtOnjoANKBYsFcLE/fqujDAQUl/auJdM8uBIq2Ul7Tl7GfWck/j2XLI0eoMBiJ5tBbc957Rn233n0KJ/WrIoJaPBoBSEkgdGqRZc8u9ghOa7MOcBZC1FhSgUT9tCH5MEfNWSMSmxaKtdo2jvmrIQOoJLn4mu9IoHKiqlY3tUy18AD6Nq5/7wqFyJWaVsbpJFLMCiIXLOes6JRFTlKL49AaGdV/nl6uXiSkxnw/NX77Nv7JP7+uPbz89LY5NdPlldQUKiHta0XZqeM5Ebf5m7qkXlQIl5EoA2YvUcN1KxoGGfhjeg1MIAznKFJEKpIgwxYWKKmBq9a0yUUevrOSTBsQaW5p5Af1aKJlwIswfNjP6YZpmSOFthpw2sgNDKgnkgXObPwuVBT1CgpKUEE9CmAiKDuUt9uLNa6m7pW4NBhrn0YY2eYyjOZAjr7A1LPX2+Bk8NcueAMSi5IAUJgik+b5OZmZgIV3o17jQw0O9AA6dDgymLUx31CFnyTNGoQDlbww2NSxFxBZcpWzqooHTS5kuTB3RVNxQsywyKG0DeDaQ5SAW3a91arQ5NbJvkNjbTos4U/Sr8o0aWGFh7AmLQAeILJc+nkPydkBxuGZJVxdoYk4YsFTG2DlFj6QJ5ohoqeH2d0cHuUme14a+z6bDDprfYIdNmPP5ruv0lMo1241L/n+fS8CclYijIDa4naRTqUSryMCSykLmk50y6uSvC2MuzzeWihbFm0ITFXGh/vQAxB8V9dk9RYYKHtO+pT3CDvJ88tCVPQpoN69nHJVkp/+6x2IzaxWY1b1Yb655qM95XtRl1ML0g9ErobEss8X1kFd+x74Bw9LdL/nibJP1fp+A/XvGrbLq55Pe3TNOGPdaBQ38tAv37XcDRVj3lUxuwH4bZj60RqE7Y4JObC6/bCXi5TJaNAObqqRNY1wnY9xWhB+oEPmUg33k3+mlNl3SKkfLTD5AyTlhZ01WZFzyZlYuRUvp57lgbtSdFURwsCMTcgwMfY5JIyHKhSGOSAZN+9PVbDppUpxB7EATap7bLtd+Zv2Sx7d7k6ULjoOX0U4CXoYJy4/V8a/rSEPQRNSR3nyAGzv4aEpo26LBLzHffCYk/QrvZtsrof+R9otPfKyz1K3KZpuu3eOfsBw==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+
+
+<iframe frameborder="0" style="width:100%;height:393px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=tets#R7VhZc9MwEP41Hp5gfKRO%2BojTpgVCB2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a7XK2m%2Fb4%2FEcPrx%2FEqQNPoIAeWGbQZzw7kwbNtyzkz8UppFoel2OoUiFCzQRpXilv2iWqnfC3MW0KxhKAG4ZGlT6UOSUF82dEQImDXNxsCbu6YkpC3FrU94W3vPAhkV2p7drfTXlIVRubPlnhdPYlIa65tkEQlgVlM5l4bTFwCyWMXzPuUqeGVc7t8t7vlw4l69%2F5z9JF%2B9D3c3314XzgaHvLK6gqCJ%2FL%2Bu7cL1lPBcx0vfVS7KAArIk4AqJ6bheJGMOS4tXP6gUi404CSXgCoQMoIQEsKHAKm2G0MitZmlZJoEbxWwKI84%2BJNCNWCc6z1Q0vY9lDIpYLLCTjlYAaGMORlR7hF%2FEi4P2gcOAh8lkFDlKkAy6LtUh7ustN6esdUYZJALn26xczTFiQjpNn9uYafOV%2BOpRu6KQkylWKCBoJxINm2SmeicCFd2Fe640NAfQAOnRYMhiVOV9UCz5JXE1QzEZAs3FC6ziEl6m5JlgGZYTpp8qfMAr%2BqFnGSZRnEHyIeBNKVC0vnWsJZPXZ3burj1tDirKoVVpn9UqxId80hAdFpAfMfi%2BZKS%2F5KS7p4pWXasnTmpyVISY%2B8U1Z4%2BAUtkzQTG4wwPtk6d1YZ%2Fz6azFptuoEWm3Xg8a7o9Epm6h3HJevJccv%2FQIlyOYfBGAlehWqU8D0MkC7pLDGfQrl0RxKM8290uGhgrBg1IzLiK1zXlUyqZTzY0FcJZiPte%2BAg3FZvJg1uyJETJraS7JVmx%2Fh6x2XSbzWYl17uNuaHb9I7VbbotTD8hegV0tsmX%2BJ5Yx3fsNRDOH7vl9%2FYp0s%2B6BD94xy%2Br6e6Wb%2B1ZpjV7zDcOfhoEevpTwPleM%2BXLGHAchtmnNgiUJ6zxycv5qD0JjHKRLAcByOXLJLBtErA3NaEHnQTKQlgD9QtNCUMwzeEpzgHrv%2Fw7zmPPAWWlaELAVUxts8iwE8NgfRZzrONhgGL1T21RCqv%2Fu53L3w%3D%3D"></iframe>
