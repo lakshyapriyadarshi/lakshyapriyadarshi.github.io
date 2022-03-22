@@ -19,7 +19,7 @@ tags = [
 
 http://www.example.com
 
-We currently accept data submissions for the SED-BIOME network project with the MarineGEO Data Submission Portal, a web-based application for data submission. Click here to launch the application. Do you need to submit data collected using other protocols, including oyster and coral reef habitats, fouling communities, and salt marshes? Please email the Excel data entry spreadsheets to the MarineGEO Data Manager at marinegeo-data@si.edu. You will be able to submit these spreadsheets soon through an updated data submission portal!
+We currently accept data submissions [data submissions](a "he SED-BIOME network project with the MarineGEO Data Submission Portal, a web-based application for data submission. Click here to launch the application. Do you need to submit data collected using other protocols, including oyster and coral reef habitats, fouling communities, and salt marshes? Please email the Excel data ent") for the SED-BIOME network project with the MarineGEO Data Submission Portal, a web-based application for data submission. Click here to launch the application. Do you need to submit data collected using other protocols, including oyster and coral reef habitats, fouling communities, and salt marshes? Please email the Excel data entry spreadsheets to the MarineGEO Data Manager at marinegeo-data@si.edu. You will be able to submit these spreadsheets soon through an updated data submission portal!
 
 $$x = x+1$$
 $$x = x+1$$
